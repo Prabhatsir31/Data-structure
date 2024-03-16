@@ -14,5 +14,12 @@ main()
 }
 void check(int num)
 {
-  
+  if(num%2 == 0)
+  {
+    printf("");
+  }
+  else()
+    {
+    
+    }
 }
