@@ -10,4 +10,9 @@ main()
       arr[i] = arr[j];
       arr[j] = temp;
     }
+  printf("After reversing, the array is : ");
+  for()
+    {
+    
+    }
 }
