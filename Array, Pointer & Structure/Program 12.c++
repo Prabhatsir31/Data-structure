@@ -1,4 +1,4 @@
-/* Program to print the value and address of the elements of an array */
+/* Program to print the value and address of the elements of an array using pointer notation */
 
 #include<stdio.h>
 main()
