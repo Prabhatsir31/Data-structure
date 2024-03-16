@@ -5,5 +5,6 @@
 #include<stdio.h>
 main()
 {
-  
+  int mat[ROW][COL], i, j;
+  printf("");
 }
