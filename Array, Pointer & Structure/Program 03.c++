@@ -13,6 +13,7 @@ main()
   printf("After reversing, the array is : ");
   for(i=0; i<10; i++)
     {
-      printf("");
+      printf("%d ", arr[i]);
     }
+  
 }
