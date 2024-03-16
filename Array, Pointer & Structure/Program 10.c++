@@ -14,6 +14,6 @@ main()
   printf("Address of pa = %p\n", &pa);
   printf("Values of ppa =  Address of pa = %p\n", ppa);
   printf("Values of *ppa =  Address of pa = %p\n", *ppa);
-  printf("Values of **ppa =  Address of a = %p\n", **ppa);
+  printf("Values of **ppa =  Address of a = %d\n", **ppa);
   printf("Address of ppa = %p\n", &ppa);
 }
