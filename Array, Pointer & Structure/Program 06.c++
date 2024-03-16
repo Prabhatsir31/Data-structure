@@ -6,5 +6,12 @@
 main()
 {
   int mat[ROW][COL], i, j;
-  printf("");
+  printf("Enter the elements of the matrix (%d%d) row-wise : \n", ROW,COL);
+  for(i=0; i<ROW; i++)
+    {
+      for(j=0; j<COL; j++)
+        {
+          scanf("");
+        }
+    }
 }
