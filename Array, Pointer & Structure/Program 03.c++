@@ -7,5 +7,6 @@ main()
   for(i=0, j=9; i<j; i++,j--)
     {
       temp = arr[i];
+      arr[i] = arr[j];
     }
 }
