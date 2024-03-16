@@ -31,7 +31,14 @@ main()
           mat3[i][j] = mat1[i][j]  + mat2[i][j];
         }
     }
-  print("");
+  print("The resultant matrix mat3 is :\n");
+   for(i=0; i<ROW; i++)
+    {
+      for(j=0; j<COL; j++)
+        {
+          printf("");
+        }
+    }
 }
 
 
