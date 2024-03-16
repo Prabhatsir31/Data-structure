@@ -36,8 +36,9 @@ main()
     {
       for(j=0; j<COL; j++)
         {
-          printf("");
+          printf("%5d", mat3[i][j]);
         }
+      printf("\n");
     }
 }
 
