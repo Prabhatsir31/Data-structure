@@ -11,7 +11,17 @@ main()
     {
       for(j=0; j<COL; j++)
         {
-          scanf("");
+          scanf("%d", &mat[i][j]);
         }
     }
+  printf("The matrix that you have entered is :\n");
+  for(i=0; i<ROW; i++)
+    {
+      for(j=0; j<COL; j++)
+        {
+          printf("%5d",mat[i][j]);
+        }
+      printf("\n");
+    }
+  
 }
