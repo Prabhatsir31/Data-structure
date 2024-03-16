@@ -7,5 +7,10 @@ main()
   float b = 4.5;
   float *p1 = &a;
   float *p2 = &b;
-  
+  printf("");
+  printf("");
+  printf("");
+  printf("");
+  printf("");
+  printf("");
 }
