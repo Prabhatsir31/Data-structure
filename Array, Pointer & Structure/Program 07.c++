@@ -23,7 +23,15 @@ main()
         }
     }
   /* Addition */
-  
+
+  for(i=0; i<ROW; i++)
+    {
+      for(j=0; j<COL; j++)
+        {
+          mat3[i][j] = mat1[i][j]  + mat2[i][j];
+        }
+    }
+  print("");
 }
 
 
