@@ -1,1 +1,1 @@
-
+/* Program to dereference pointer variables */
