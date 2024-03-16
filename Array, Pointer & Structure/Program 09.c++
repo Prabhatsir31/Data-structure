@@ -10,7 +10,7 @@ main()
   printf("Values of p1 = Address of a = %p\n", p1);
   printf("Values of p2 = Address of a = %p\n", p2);
   printf("Address of p1 = %p\n", &p1);
-  printf("");
+  printf("Address of p2 = %p\n", &p2);
   printf("");
   printf("");
 }
