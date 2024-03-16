@@ -16,8 +16,10 @@ main()
 void func(int val[])
 {
   int sum=0, i;
-  for()
+  for(i=0; i<6; i++)
     {
-    
+      val[i] = val[i]*val[i];
+      sum += val[i];
     }
+  printf("The sum of square = %d\n", sum);
 }
