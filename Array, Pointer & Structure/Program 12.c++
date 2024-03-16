@@ -7,7 +7,7 @@ main()
   int i;
   for(i=0; i<5; i++)
     {
-      printf("Values of arr[%d] = %d\t", i, arr[i]);
+      printf("Values of arr[%d] = %d\t", i, *arr[i]);
       printf("Address of arr[%d] = %p\n", i, &arr[i]);
     }
 }
