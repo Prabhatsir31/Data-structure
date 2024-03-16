@@ -15,5 +15,9 @@ main()
 }
 void func(int val[])
 {
-  
+  int sum=0, i;
+  for()
+    {
+    
+    }
 }
