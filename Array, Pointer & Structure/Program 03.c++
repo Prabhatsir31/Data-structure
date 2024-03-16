@@ -11,8 +11,8 @@ main()
       arr[j] = temp;
     }
   printf("After reversing, the array is : ");
-  for()
+  for(i=0; i<10; i++)
     {
-    
+      printf("");
     }
 }
