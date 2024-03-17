@@ -14,6 +14,6 @@ void ref(int *p, int *q)
 {
   (*p)++;
   (*q)++;
-  printf("");
+  printf("Inside ");
 }
 
