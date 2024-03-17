@@ -8,4 +8,7 @@ main()
   func(a, b, &'sum, &diff, &prod);
   printf("Sum = %d, Difference = %d, Product = %d\n", sum, diff, prod);  
 }
-
+func()
+{
+  
+}
