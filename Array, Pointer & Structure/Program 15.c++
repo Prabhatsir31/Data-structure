@@ -14,3 +14,4 @@ func(int x, int y, int *ps, int *pd, int *pp)
   *pd = x-y;
   *pp = x*y;
 }
+
