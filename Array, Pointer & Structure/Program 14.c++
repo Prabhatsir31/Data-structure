@@ -6,5 +6,5 @@ main()
 {
   int a=5;
   int b=8;
-  printf("Before calling ");
+  printf("Before calling the function  ");
 }
