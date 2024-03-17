@@ -1,4 +1,6 @@
 /* CAll by reference */
 
 #include<stdio.h>
-void ref();
+void ref(int *p, int *q);
+
+
