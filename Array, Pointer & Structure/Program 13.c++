@@ -9,4 +9,7 @@ main()
   value(a,b);
   printf("After calling the function, a = %d and b = %d\n ", a,b);
 }
-void 
+void value(int x, int y)
+{
+  
+}
