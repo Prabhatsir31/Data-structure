@@ -10,3 +10,8 @@ main()
   ref(&a, &b);
   printf("After calling the function, a = %d and b = %d\n ", a,b);
 }
+void ref(int *p, int *q)
+{
+  
+}
+
