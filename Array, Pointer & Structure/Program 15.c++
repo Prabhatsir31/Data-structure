@@ -6,5 +6,6 @@ main()
 {
   int a, b, sum, diff, prod;
   func(a, b, &'sum, &diff, &prod);
-  printf("");  
+  printf("Sum = %d, Difference = %d, Product = %d\n", sum, diff, prod);  
 }
+
