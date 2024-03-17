@@ -4,5 +4,5 @@
 func(int x, int y, int *ps, int *pd, int *pp);
 main()
 {
-  
+  int a, b, sum, diff, prod;
 }
