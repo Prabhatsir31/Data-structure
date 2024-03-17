@@ -11,5 +11,5 @@ main()
 }
 void value(int x, int y)
 {
-  
+  x++;
 }
