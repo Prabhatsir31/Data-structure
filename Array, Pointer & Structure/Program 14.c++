@@ -4,5 +4,6 @@
 void ref(int *p, int *q);
 main()
 {
+  int a=5;
   
 }
