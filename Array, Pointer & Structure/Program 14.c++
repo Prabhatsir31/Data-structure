@@ -16,4 +16,3 @@ void ref(int *p, int *q)
   (*q)++;
   printf("Inside function *p = %d, *q = %d\n", *p, *q);
 }
-
