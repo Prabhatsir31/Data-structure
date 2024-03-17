@@ -13,5 +13,5 @@ void value(int x, int y)
 {
   x++;
   y++;
-  printf("Inside function ");
+  printf("Inside function x = %d, y = %d ");
 }
