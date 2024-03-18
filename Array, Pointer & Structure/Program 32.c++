@@ -13,3 +13,12 @@ main()
 {
   
 }
+
+void dec_marks(struct student stuarr[])
+{
+  int i;
+  for(i=0; i<3; i++)
+    {
+      stuarr[i].marks = stuarr[i].marks-10;
+    }
+}
