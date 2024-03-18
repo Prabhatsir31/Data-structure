@@ -2,3 +2,7 @@
 
 #include<stdio.h>
 int *fun(int *p, int n);
+main()
+{
+  
+}
