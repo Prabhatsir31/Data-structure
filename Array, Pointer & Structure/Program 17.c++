@@ -8,6 +8,7 @@ main()
   func(arr);
   for(i=0; i<5; i++)
     {
-      printf("");
+      printf("%d  ", arr);
     }
+  printf("");
 }
