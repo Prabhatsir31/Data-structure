@@ -4,5 +4,10 @@
 void func(int arr[]);
 main()
 {
-  
+  int i, arr[5] = {3,6,2,7,1};
+  func(arr);
+  for()
+    {
+    
+    }
 }
