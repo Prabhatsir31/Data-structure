@@ -11,6 +11,6 @@ main()
   for(i=0; i<3; i++)
     {
       printf("pa[%d] = %p\t", i, pa[i]);
-      printf("pa[%d] = %p\t", i, pa[i]);
+      printf(" *pa[%d] = %d\t", i, *pa[i]);
     }
 }
