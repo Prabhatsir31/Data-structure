@@ -18,6 +18,6 @@ main()
     }
   for(i=0; i<10; i++)
     {
-      scanf("%s  %d  %f\n", stuarr[i].name, &stuarr[i].rollno, stuarr[i].marks);
+      printf("%s  %d  %f\n", stuarr[i].name, &stuarr[i].rollno, stuarr[i].marks);
     }
 }
