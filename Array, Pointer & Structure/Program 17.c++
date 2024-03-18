@@ -15,5 +15,9 @@ main()
 void func(int a[])
 {
   int i;
-  printf("");
+  printf("Inside func()  :");
+  func()
+  {
+    
+  }
 }
