@@ -7,8 +7,8 @@ struct student
   int rollno;
   int marks;
 };
-void display(struct student *);
-void inc_marks(struct student *);
+void display(struct student);
+struct student change(struct student stu);
 main()
 {
   struct student stu1 = {"John", 12,87};
