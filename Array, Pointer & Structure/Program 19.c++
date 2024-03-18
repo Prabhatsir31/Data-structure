@@ -5,4 +5,8 @@ main()
 {
   int *pa[3];
   int i, a=5, b=10, c=15;
+  pa[0] = &a;
+  pa[1] = &b;
+  pa[2] = &c;
+  
 }
