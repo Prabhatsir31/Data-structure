@@ -10,4 +10,5 @@ main()
   printf("Inside main():  ");
   printf("Size of f_arr = %u\t", sizeof((f_arr));
   printf("Size of i_arr = %u\t", sizeof((i_arr));
+  printf("Size of c_arr = %u\t", sizeof((c_arr));
 }
