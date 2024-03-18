@@ -19,5 +19,5 @@ void display(struct student stu1);
 {
   printf("Name -  %s\t",name);
   printf("Rollno -  %d\t",rollno);
-  printf("Marks -  %d\t",marks);
+  printf("Marks -  %d\n",marks);
 }
