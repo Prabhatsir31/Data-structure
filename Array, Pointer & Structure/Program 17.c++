@@ -1,7 +1,7 @@
 /* Program to show that changes to the array made inside the function affect the original array */
 
 #include<dtdio.h>
-void func(int arr[]);
+void func(int a[]);
 main()
 {
   int i, arr[5] = {3,6,2,7,1};
@@ -12,7 +12,8 @@ main()
     }
   printf("\n");
 }
-void func()
+void func(int a[])
 {
-  
+  int i;
+  printf("");
 }
