@@ -6,8 +6,8 @@ main()
 {
   int i, arr[5] = {3,6,2,7,1};
   func(arr);
-  for()
+  for(i=0; i<5; i++)
     {
-    
+      printf("");
     }
 }
