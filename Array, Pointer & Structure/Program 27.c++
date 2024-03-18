@@ -1,0 +1,1 @@
+/* Program to understand how structure members are sent to a function */
