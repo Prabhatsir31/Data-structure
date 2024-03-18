@@ -26,5 +26,5 @@ void display(struct student *stuptr);
 {
   printf("Name -  %s\t",stuptr->name);
   printf("Rollno -  %d\t",stuptr->rollno);
-  printf("Marks -  %d\t",stuptr->marks);
+  printf("Marks -  %d\n",stuptr->marks);
 }
