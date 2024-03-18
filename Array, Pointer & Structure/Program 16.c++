@@ -11,5 +11,6 @@ main()
 }
 int *fun(int *p, int n)
 {
-  
+  p = p+n;
+  return p;
 }
