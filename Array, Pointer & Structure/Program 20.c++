@@ -4,5 +4,6 @@
 #include<stdlib.h>
 main()
 {
+  int *p, n, i;
   
 }
