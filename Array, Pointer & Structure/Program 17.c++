@@ -16,8 +16,9 @@ void func(int a[])
 {
   int i;
   printf("Inside func()  :");
-  func()
+  func(i=0; i<5; i++)
   {
-    
+    a[i] = a[i] + 2;
+    printf("");
   }
 }
