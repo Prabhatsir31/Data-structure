@@ -2,4 +2,7 @@
 
 #include<stdio.h>
 func(float f[], int *i, char c[5]);
-
+main()
+{
+  
+}
