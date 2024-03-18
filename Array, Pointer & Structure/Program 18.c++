@@ -9,4 +9,5 @@ main()
   char c_arr[5] = {'a','b','c','d','e'};
   printf("Inside main():  ");
   printf("Size of f_arr = %u\t", sizeof((f_arr));
+  printf("Size of i_arr = %u\t", sizeof((i_arr));
 }
