@@ -13,7 +13,7 @@ main()
   printf("Size of c_arr = %u\t", sizeof((c_arr));
   printff("f_arr, i_arr, c_arr");
 }
-func()
+func(float f[], int *i, char c[5])
 {
   
 }
