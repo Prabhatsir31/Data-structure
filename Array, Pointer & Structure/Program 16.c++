@@ -9,7 +9,7 @@ main()
   ptr = fun(arr, n);
   printf("arr = %p, ptr = %p, *ptr = %d\n", arr, ptr, *ptr);
 }
-int *fun()
+int *fun(int *p, int n)
 {
   
 }
