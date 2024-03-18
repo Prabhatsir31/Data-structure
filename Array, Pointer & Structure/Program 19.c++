@@ -10,7 +10,7 @@ main()
   pa[2] = &c;
   for(i=0; i<3; i++)
     {
-      printf("");
-      printf("");
+      printf("pa[%d] = %p\t", i, pa[i]);
+      printf("pa[%d] = %p\t", i, pa[i]);
     }
 }
