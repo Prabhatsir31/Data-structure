@@ -18,4 +18,8 @@ main()
       printf("Enter an integer : ");
       scanf("%d", p+i);
     }
+  for(i=0; i<n; i++)
+    {
+      printf("%d\t", *(p+i));
+    }
 }
