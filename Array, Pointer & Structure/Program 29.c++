@@ -18,9 +18,13 @@ main()
   display(&stu1);
   display(&stu2);
 }
-void display(struct student stu1);
+void inc_marks(struct student *stuptr)
 {
-  printf("Name -  %s\t",name);
-  printf("Rollno -  %d\t",rollno);
-  printf("Marks -  %d\t",marks);
+  (stuptr->marks)++;
+}
+void display(struct student *stuptr);
+{
+  printf("Name -  %s\t",stuptr->name);
+  printf("Rollno -  %d\t",stuptr->rollno);
+  printf("Marks -  %d\t",stuptr->marks);
 }
