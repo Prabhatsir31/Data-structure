@@ -18,4 +18,5 @@ main()
   printf("Enter name, rollno, and marks for stu3 : ");
   scanf("%s %d %f", stu3.name, &stu3.rollno, &stu3.marks);
   printf("stu1 : %s  %d  %.2f\n", stu1.name, stu1.rollno, stu1.marks);
+  printf("stu2 : %s  %d  %.2f\n", stu2.name, stu2.rollno, stu2.marks);
 }
