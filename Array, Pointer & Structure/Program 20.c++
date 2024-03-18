@@ -5,5 +5,5 @@
 main()
 {
   int *p, n, i;
-  
+  printf("Enter the number of intergers to be entered :  ");
 }
