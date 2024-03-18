@@ -10,5 +10,9 @@ main()
     {
       printf("%d  ", arr);
     }
-  printf("");
+  printf("\n");
+}
+void func()
+{
+  
 }
