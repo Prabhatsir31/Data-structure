@@ -13,4 +13,8 @@ main()
     printf("Memory not available\n");
     exit(1);
   }
+  for(i=0; i<n; i++)
+    {
+      
+    }
 }
