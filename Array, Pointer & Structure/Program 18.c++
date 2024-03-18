@@ -16,4 +16,6 @@ main()
 func(float f[], int *i, char c[5])
 {
   printf("Inside func():  ");
+  printf("Size of f = %u\t", sizeof((f));
+  printf("Size of i = %u\t", sizeof((i));
 }
