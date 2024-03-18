@@ -4,5 +4,5 @@
 int *fun(int *p, int n);
 main()
 {
-  
+  int arr[10] = {};
 }
