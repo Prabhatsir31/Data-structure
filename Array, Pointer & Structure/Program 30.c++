@@ -13,18 +13,21 @@ main()
 {
   struct student stu1 = {"John", 12,87};
   struct student stu1 = {"Mary", 18,90};
-  inc_marks(&stu1);
-  inc_marks(&stu2);
-  display(&stu1);
-  display(&stu2);
+  stu1 = change(&stu1);
+  stu2 = change(&stu2);
+  display(stu1);
+  display(stu2);
 }
-void inc_marks(struct student *stuptr)
+
+struct student change(struct student stu)
 {
-  (stuptr->marks)++;
+  stu.marks = stu.marks + 5;
+  stu.rollno = stu.rollno - 10;
+  return stu;
 }
-void display(struct student *stuptr);
+void display(struct student stu);
 {
-  printf("Name -  %s\t",stuptr->name);
-  printf("Rollno -  %d\t",stuptr->rollno);
-  printf("Marks -  %d\t",stuptr->marks);
+  printf("Name -  %s\t",stu.name);
+  printf("Rollno -  %d\t",stu.rollno);
+  printf("Marks -  %d\n",stu.marks);
 }
