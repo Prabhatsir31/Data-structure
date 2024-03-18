@@ -18,5 +18,10 @@ main()
   stu2.marks = 90;
   display(stu1.name, stu1.rollno, stu1.marks);
   display(stu2.name, stu2.rollno, stu2.marks);
-  
+}
+void display(char name[], int rollno, int marks);
+{
+  printf("Name -  %s\t",name);
+  printf("Rollno -  %d\t",rollno);
+  printf("Marks -  %d\t",marks);
 }
