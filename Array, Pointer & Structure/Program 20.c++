@@ -15,6 +15,7 @@ main()
   }
   for(i=0; i<n; i++)
     {
-      
+      printf("Enter an integer : ");
+      scanf("%d", p+i);
     }
 }
