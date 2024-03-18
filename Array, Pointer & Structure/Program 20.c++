@@ -8,5 +8,6 @@ main()
   printf("Enter the number of intergers to be entered :  ");
   scanf("%d", &n);
   p = (int *)malloc(n*sizeof(int));
-  
+  if()
+  {}
 }
