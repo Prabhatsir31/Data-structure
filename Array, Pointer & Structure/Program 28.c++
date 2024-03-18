@@ -11,7 +11,7 @@ void display(struct student);
 main()
 {
   struct student stu1 = {"John", 12,87};
-  struct student stu1 = {"MAry", 18,90};
+  struct student stu1 = {"Mary", 18,90};
   display(stu1);
   display(stu2);
 }
