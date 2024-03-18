@@ -5,5 +5,7 @@ func(float f[], int *i, char c[5]);
 main()
 {
   float f_arr[5] = {1,4,2,5,3,7,4,1,5,9};  
-  int i_arr[5] = {};
+  int i_arr[5] = {1,2,3,4,5};
+  char c_arr[5] = {'a','b','c','d','e'};
+  printf("");
 }
