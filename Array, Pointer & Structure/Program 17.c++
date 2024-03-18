@@ -19,6 +19,7 @@ void func(int a[])
   func(i=0; i<5; i++)
   {
     a[i] = a[i] + 2;
-    printf("");
+    printf("%d ", a[i]);
   }
+  printf("\n");
 }
