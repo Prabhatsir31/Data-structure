@@ -105,3 +105,18 @@ int isFull()
        
 } /*End of IsFull()*/
 
+void display()
+{
+    int i;
+    if (isEmpty())
+    {
+        printf("Stack is empty\n");
+        return;
+    }
+    printf("Stack elements :\n\n");
+    for (i=top; i>=0; i--)
+    {
+        printf(" %d\n", stack_arr[i]);
+    }
+    printf("\n");
+} /* End of Display() */
