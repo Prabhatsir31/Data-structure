@@ -54,11 +54,11 @@ main()
     
 } /* End of main() */
 
-void push()
+void push(int item)
 {
     if(isFull())
     {
-        printf("Stack Overflow");
+        printf("Stack Overflow\n");
         return;
     }
     top = top+1;
@@ -67,5 +67,24 @@ void push()
 
 int pop()
 {
-    
-}
+    int item;
+    if (isEmpty())
+    {
+        printf("Stack Underflow\n");
+        exit(1);
+    }
+    item = stack_arr[top];
+    top = top-1;
+    return item;
+} /* End of Pop() */
+
+int peek()
+{
+    if(isEmpty())
+    {
+        printf("Stack Underflow\n");
+        exit(1);
+    }
+    return stack_arr[top];
+} /* End of Peek() */
+
