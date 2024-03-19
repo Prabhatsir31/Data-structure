@@ -53,3 +53,19 @@ main()
     } /* End of While */
     
 } /* End of main() */
+
+void push()
+{
+    if(isFull())
+    {
+        printf("Stack Overflow");
+        return;
+    }
+    top = top+1;
+    stack_arr[top] = item;
+} /* End of Push() */
+
+int pop()
+{
+    
+}
