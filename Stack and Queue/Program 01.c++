@@ -11,3 +11,30 @@ int peek();
 int isEmpty();
 int isFull();
 void display();
+main()
+{
+    int  choice,item;
+    while (1)
+    {
+        printf("1. Push\n");
+        printf("1. Pop\n");
+        printf("3. Display the top element\n");
+        printf("4. Display all stack elements\n");
+        printf("5. Quit\n");
+        printf("Enter your choice : ");
+        scanf("%d",&choice);
+        switch(choice)
+        {
+            case 1:
+                printf("Enter the item to be pushed : ");
+                scanf("%d",&item);
+                push(item);
+                break;
+
+            case 2:
+                item = pop();
+                
+        }
+    }
+    
+}
