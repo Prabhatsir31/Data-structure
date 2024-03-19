@@ -88,3 +88,20 @@ int peek()
     return stack_arr[top];
 } /* End of Peek() */
 
+int isEmpty()
+{
+    if (top == -1)
+        return 1;
+    else
+        return 0;
+}  /* End of IsEmpty() */
+
+int isFull()
+{
+    if (top == MAX-1)
+        return 1;
+    else
+        return 0;
+       
+} /*End of IsFull()*/
+
