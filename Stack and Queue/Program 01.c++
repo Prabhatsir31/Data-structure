@@ -6,5 +6,8 @@
 int stack_arr[MAX];
 int top = -1;
 void push(int item);
-int pop;
-int peek;
+int pop();
+int peek();
+int isEmpty();
+int isFull();
+void display();
