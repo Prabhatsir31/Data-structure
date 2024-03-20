@@ -105,4 +105,12 @@ int isFull()
 } /* End of isFull() */
 
 void display()
-{} /* End of display() */
+{
+  int i;
+  if(isEmpty())
+  {
+    printf("Queue is empty\n");
+    return;
+  }
+  
+} /* End of display() */
