@@ -86,7 +86,5 @@ int peek()
     printf("Queue Underflow\n");
     exit(1);
   }
-  item = queue_arr[front];
-  front = front+1;
-  return item;
+  return queue_arr[front];
 } /* End of peek() */
