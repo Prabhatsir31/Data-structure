@@ -112,5 +112,8 @@ void display()
     printf("Queue is empty\n");
     return;
   }
-  
+  printf("Queue is : \n\n");
+  for(i=front; i<=rear; i++)
+    printf("%d  ", queue_arr[i]);
+  printf("\n\n");
 } /* End of display() */
