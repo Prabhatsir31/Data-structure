@@ -22,5 +22,12 @@ main()
       printf("2. Delete\n");
       printf("3. Display element at the front\n");
       printf("4. Display all elements of the queue\n");
+      print("5. Quit\n");
+      printf("Enter your choice : ");
+      scanf("%d",&choice);
+      switch(choice)
+        {
+          
+        }
     }
 }
