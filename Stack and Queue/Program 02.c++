@@ -90,8 +90,9 @@ int peek()
 
 int isEmpty()
 {
-  if()
+  if(front == -1 || front == rear+1)
     return 1;
   else
     return 0;
 } /* End of isEmpty() */
+
