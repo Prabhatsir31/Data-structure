@@ -75,5 +75,5 @@ int del()
   }
   item = queue_arr[front];
   front = front+1;
-  
+  return item;
 }
