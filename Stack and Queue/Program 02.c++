@@ -68,5 +68,10 @@ void insert(int item)
 int del()
 {
   int item;
+  if(isEmpty())
+  {
+    printf("Queue Underflow\n");
+    exit(1);
+  }
   
 }
