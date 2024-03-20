@@ -78,7 +78,7 @@ int del()
   return item;
 } /* End of del() */
 
-int del()
+int peek()
 {
   int item;
   if(isEmpty())
@@ -89,4 +89,4 @@ int del()
   item = queue_arr[front];
   front = front+1;
   return item;
-} /* End of del() */
+} /* End of peek() */
