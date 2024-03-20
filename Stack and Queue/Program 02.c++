@@ -73,5 +73,6 @@ int del()
     printf("Queue Underflow\n");
     exit(1);
   }
+  item = queue_arr[front];
   
 }
