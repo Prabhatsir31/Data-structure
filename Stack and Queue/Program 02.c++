@@ -65,3 +65,8 @@ void insert(int item)
   queue_arr[rear] = item;
 } /* End of insert() */
 
+int del()
+{
+  int item;
+  
+}
