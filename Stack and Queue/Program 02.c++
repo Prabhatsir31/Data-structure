@@ -90,10 +90,8 @@ int peek()
 
 int isEmpty()
 {
-  if(isEmpty())
-  {
-    printf("Queue Underflow\n");
-    exit(1);
-  }
-  return queue_arr[front];
+  if()
+    return 1;
+  else
+    return 0;
 } /* End of isEmpty() */
