@@ -78,3 +78,15 @@ int del()
   return item;
 } /* End of del() */
 
+int del()
+{
+  int item;
+  if(isEmpty())
+  {
+    printf("Queue Underflow\n");
+    exit(1);
+  }
+  item = queue_arr[front];
+  front = front+1;
+  return item;
+} /* End of del() */
