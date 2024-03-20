@@ -80,7 +80,6 @@ int del()
 
 int peek()
 {
-  int item;
   if(isEmpty())
   {
     printf("Queue Underflow\n");
@@ -88,3 +87,4 @@ int peek()
   }
   return queue_arr[front];
 } /* End of peek() */
+
