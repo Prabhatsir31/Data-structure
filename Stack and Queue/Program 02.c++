@@ -6,9 +6,19 @@
 int queue_arr[MAX];
 int rear = -1;
 int front = -1;
-void push(int item);
-int pop();
+void insert(int item);
+int del();
 int peek();
 int isEmpty();
 int isFull();
 void display();
+
+main()
+{
+  int choice,item;
+  while(1)
+    {
+      printf("1. Insert\n");
+      printf("2. Delete\n");
+    }
+}
