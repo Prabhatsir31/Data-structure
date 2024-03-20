@@ -98,8 +98,11 @@ int isEmpty()
 
 int isFull()
 {
-  if()
+  if(rear == MAX-1)
     return 1;
   else
     return 0;
 } /* End of isFull() */
+
+void display()
+{} /* End of display() */
