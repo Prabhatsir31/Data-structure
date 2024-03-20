@@ -96,10 +96,10 @@ int isEmpty()
     return 0;
 } /* End of isEmpty() */
 
-int isEmpty()
+int isFull()
 {
-  if(front == -1 || front == rear+1)
+  if()
     return 1;
   else
     return 0;
-} /* End of isEmpty() */
+} /* End of isFull() */
