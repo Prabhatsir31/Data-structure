@@ -50,4 +50,18 @@ main()
     } /* End of while */
 } /* End of main() */
 
+void insert(int item)
+{
+  if(isFull())
+  {
+    printf("Queue Overflow\n");
+    return;
+  }
+  if(front == -1)
+  {
+    front = 0;
+  }
+  rear = rear+1;
+  queue_arr[rear] = item;
+} /* End of insert() */
 
