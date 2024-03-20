@@ -27,7 +27,27 @@ main()
       scanf("%d",&choice);
       switch(choice)
         {
-          
-        }
-    }
-}
+          case 1:
+            printf("Input the element for adding in queue :");
+            scanf("%d", &item);
+            insert(item);
+            break;
+          case 2:
+            item = del();
+            printf("Deleted element is %d\n", item);
+            break;
+          case 3:
+            printf("Element at the front is  %d\n", peek());
+            break;
+          case 4:
+            display();
+            break;
+          case 5:
+            exit(1);
+          default
+             print("Wrong choice\n"); 
+        } /* End of switch */
+    } /* End of while */
+} /* End of main() */
+
+
