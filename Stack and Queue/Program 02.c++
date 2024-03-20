@@ -88,7 +88,7 @@ int peek()
   return queue_arr[front];
 } /* End of peek() */
 
-int peek()
+int isEmpty()
 {
   if(isEmpty())
   {
@@ -96,4 +96,4 @@ int peek()
     exit(1);
   }
   return queue_arr[front];
-} /* End of peek() */
+} /* End of isEmpty() */
