@@ -92,5 +92,17 @@ int priority(char symbol)
         }
 } /* End of priority() */
 
+void push(long int symbol)
+{
+    if(top > MAX)
+    {
+        printf("Stack Overflow\n");
+        exit(1);
+    }
+    stack[++top] = symbol;
+} /* End of push() */
 
-
+long int pop()
+{
+    
+} /* End of pop() */
