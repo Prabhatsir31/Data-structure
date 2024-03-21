@@ -14,4 +14,10 @@ main()
   unsigned int i;
   printf("Enter the string : ");
   gets(str);
+  /* Push characters of the string str on the stack */
+  for(i=0; i<strlen(str); i++)
+    {
+      str[i] = pop();
+    }
+  
 }
