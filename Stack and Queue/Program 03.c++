@@ -11,5 +11,5 @@ void push(char);
 main()
 {
   char str[20];
-  
+  unsigned int i;
 }
