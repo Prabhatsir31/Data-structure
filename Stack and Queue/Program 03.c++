@@ -25,5 +25,8 @@ main()
 
 void push(char item)
 {
-  
+  if(top == (MAX-1))
+  {
+    
+  }
 }
