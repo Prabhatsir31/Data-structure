@@ -12,3 +12,4 @@
 void push(long int symbol);
 long int pop();
 void infix_to_postfix();
+long int eval_post();
