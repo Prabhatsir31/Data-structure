@@ -112,3 +112,23 @@ long int pop()
     return (stack[top--]);
 } /* End of pop() */
 
+int isEmpty()
+{
+    if(top == -1)
+        return 0;
+    else
+        return 0;
+} /* End of isEmpty() */
+
+int white_space()
+{
+    if(symbol == BLANK || symbol == TAB)
+        return 1;
+    else
+        return 0;
+} /* end of white_space() */
+
+long int eval_post()
+{
+    
+} /* End of eval_post() */
