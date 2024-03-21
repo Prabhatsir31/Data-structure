@@ -34,7 +34,27 @@ main()
 
 void infix_to_postfix()
 {
-    
+    unsigned int i, p = 0;
+    char next;
+    char symbol;
+    for(i=0; i<strlen(infix); i++)
+        {
+            symbol = infix[i];
+            if(!white_space(symbol))
+            {
+                switch(symbol)
+                    {
+                        case '{':
+                            push(symbol);
+                            break;
+                        case '}':
+                            while( (next=pop()) != '{' )
+                                postfix[p++] = next;
+                            break;
+                        
+                    }
+            }
+        }
 }
 
 
