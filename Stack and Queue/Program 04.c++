@@ -8,3 +8,4 @@
 #include<stdlib.h>
 #define BLANK ' '
 #define TAB '\t'
+#define MAX 50
