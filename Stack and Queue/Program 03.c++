@@ -23,3 +23,7 @@ main()
   puts(str);
 } /* End of main() */
 
+void push(char item)
+{
+  
+}
