@@ -53,10 +53,22 @@ void infix_to_postfix()
                             break;
                         case '+':
                         case '-':
-                        
+                        case '*':
+                        case '/':
+                        case '%':
+                        case '^':
+                            while(!isEmpty() && priority(stack[top]) >= priority(symbol) )
+                                postfix[p++] = pop();
+                            push(symbol);
+                            break;
+                        default: /* if an operand comes */
+                            postfix[p++] = symbol;
                     }
             }
         }
-}
+    while(!isEmpty())
+        postfix[p++] = pop();
+    postfix[p] = '\0'; /* End postfix with '\0' to make it a string */
+} /* End of infix_to_postfix() */
 
 
