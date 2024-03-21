@@ -32,6 +32,9 @@ main()
     printf("Value of expression : %ld\n", value);
 } /* End of main() */
 
-
+void infix_to_postfix()
+{
+    
+}
 
 
