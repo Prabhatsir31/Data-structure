@@ -7,3 +7,4 @@
 #include<math.h>
 #include<stdlib.h>
 #define BLANK ' '
+#define TAB '\t'
