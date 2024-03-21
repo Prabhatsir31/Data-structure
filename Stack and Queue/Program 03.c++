@@ -12,4 +12,5 @@ main()
 {
   char str[20];
   unsigned int i;
+  printf("Enter the string : ");
 }
