@@ -10,5 +10,6 @@ char pop();
 void push(char);
 main()
 {
+  char str[20];
   
 }
