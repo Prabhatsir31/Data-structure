@@ -71,4 +71,5 @@ void infix_to_postfix()
     postfix[p] = '\0'; /* End postfix with '\0' to make it a string */
 } /* End of infix_to_postfix() */
 
+/* This function returns the priority of the operator */
 
