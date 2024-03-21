@@ -51,6 +51,8 @@ void infix_to_postfix()
                             while( (next=pop()) != '{' )
                                 postfix[p++] = next;
                             break;
+                        case '+':
+                        case '-':
                         
                     }
             }
