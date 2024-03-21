@@ -20,4 +20,6 @@ main()
       str[i] = pop();
     }
   printf("Reversed string is : ");
-}
+  puts(str);
+} /* End of main() */
+
