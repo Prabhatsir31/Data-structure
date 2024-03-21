@@ -14,3 +14,4 @@ long int pop();
 void infix_to_postfix();
 long int eval_post();
 int priority(char symbol);
+int isEmpty();
