@@ -27,6 +27,7 @@ void push(char item)
 {
   if(top == (MAX-1))
   {
+    printf("Stack Overflow\n");
     
   }
 }
