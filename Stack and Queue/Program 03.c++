@@ -32,3 +32,8 @@ void push(char item)
   }
   stack[++top] = item;
 } /* End of push() */
+
+char pop()
+{
+  
+}
