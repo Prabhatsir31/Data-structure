@@ -7,3 +7,4 @@
 int top = -1;
 char stack[MAX];
 char pop();
+void push(char);
