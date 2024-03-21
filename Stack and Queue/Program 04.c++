@@ -104,5 +104,11 @@ void push(long int symbol)
 
 long int pop()
 {
-    
+    if(isEmpty())
+    {
+        printf("Stack Underflow\n");
+        exit(1);
+    }
+    return (stack[top--]);
 } /* End of pop() */
+
