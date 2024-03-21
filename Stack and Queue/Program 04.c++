@@ -74,6 +74,23 @@ void infix_to_postfix()
 /* This function returns the priority of the operator */
 int priority(char symbol)
 {
-    
-}
+    switch(symbol)
+        {
+            case '(':
+                return 0;
+            case '+':
+            case '-':
+                return 1;
+            case '*':
+            case '/':
+            case '%':
+                return 2;
+            case '^':
+                return 3;
+            default:
+                return 0;
+        }
+} /* End of priority() */
+
+
 
