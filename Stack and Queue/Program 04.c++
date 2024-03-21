@@ -11,3 +11,4 @@
 #define MAX 50
 void push(long int symbol);
 long int pop();
+void infix_to_postfix();
