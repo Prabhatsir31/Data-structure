@@ -72,4 +72,8 @@ void infix_to_postfix()
 } /* End of infix_to_postfix() */
 
 /* This function returns the priority of the operator */
+int priority(char symbol)
+{
+    
+}
 
