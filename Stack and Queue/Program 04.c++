@@ -21,7 +21,16 @@ long int stack[MAX];
 int top;
 
 main()
-{}
+{
+    long int value;
+    top = -1;
+    printf("Enter infix : ");
+    gets(infix);
+    infix_to_postfix();
+    printf("Postfix : %s\n", postfix);
+    value = eval_post();
+    printf("Value of expression : %ld\n", value);
+} /* End of main() */
 
 
 
