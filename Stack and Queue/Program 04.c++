@@ -9,4 +9,5 @@
 #define BLANK ' '
 #define TAB '\t'
 #define MAX 50
-void push(long int symbol)
+void push(long int symbol);
+long int pop();
