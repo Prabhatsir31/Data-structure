@@ -19,5 +19,5 @@ main()
     {
       str[i] = pop();
     }
-  
+  printf("Reversed string is : ");
 }
