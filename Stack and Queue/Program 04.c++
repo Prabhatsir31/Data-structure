@@ -16,3 +16,13 @@ long int eval_post();
 int priority(char symbol);
 int isEmpty();
 int white_space();
+char infix[MAX], postfix[MAX];
+long int stack[MAX];
+int top;
+
+main()
+{}
+
+
+
+
