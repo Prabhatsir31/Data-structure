@@ -132,5 +132,8 @@ long int eval_post()
 {
     long int a,b,temp, result;
     unsigned int i;
-    
+    for(i=0; i,strlen(postfix(); i++)
+        {
+        
+        }
 } /* End of eval_post() */
