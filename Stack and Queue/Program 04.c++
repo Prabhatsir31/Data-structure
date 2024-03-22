@@ -169,6 +169,7 @@ long int eval_post()
                 push(temp);
             }
         }
+    result = pop();
     
 } /* End of eval_post() */
 
