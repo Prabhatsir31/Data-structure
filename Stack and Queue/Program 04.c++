@@ -166,6 +166,7 @@ long int eval_post()
                             temp = b^a;
                             break;
                     }
+                push(temp);
             }
         }
 } /* End of eval_post() */
