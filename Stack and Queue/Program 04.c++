@@ -157,6 +157,10 @@ long int eval_post()
                         case '/':
                             temp = b/a;
                             break;
+                        
+                        case '%':
+                            temp = b%a;
+                            break;
                     }
             }
         }
