@@ -131,5 +131,6 @@ int white_space()
 long int eval_post()
 {
     long int a,b,temp, result;
+    unsigned int i;
     
 } /* End of eval_post() */
