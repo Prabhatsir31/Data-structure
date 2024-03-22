@@ -134,6 +134,11 @@ long int eval_post()
     unsigned int i;
     for(i=0; i,strlen(postfix(); i++)
         {
-        
+            if(postfix[i] <= '9' && postfix[i] >= '0' )
+                push( postfix[i]-'0' );
+            else
+            {
+                
+            }
         }
 } /* End of eval_post() */
