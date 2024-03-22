@@ -170,7 +170,7 @@ long int eval_post()
             }
         }
     result = pop();
-    
+    return result;    
 } /* End of eval_post() */
 
 
