@@ -142,8 +142,26 @@ long int eval_post()
                 b = pop();
                 switch(postfix[i])
                     {
+                        case '+':
+                            temp = b+a;
+                            break;
                         
+                        case '-':
+                            temp = b-a;
+                            break;
+                        
+                        case '*':
+                            temp = b*a;
+                            break;
                     }
             }
         }
 } /* End of eval_post() */
+
+
+
+
+
+
+
+
