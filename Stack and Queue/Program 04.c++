@@ -138,7 +138,12 @@ long int eval_post()
                 push( postfix[i]-'0' );
             else
             {
-                
+                a = pop();
+                b = pop();
+                switch(postfix[i])
+                    {
+                        
+                    }
             }
         }
 } /* End of eval_post() */
