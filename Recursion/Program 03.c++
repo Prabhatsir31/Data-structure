@@ -28,4 +28,6 @@ void Rdisplay(long int n)
     printf("%d", n);
     return;
   }
-}
+  printf("%d", n%10);
+  Rdisplay(n/10);
+} /* End of Rdisplay() */
