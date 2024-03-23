@@ -11,3 +11,10 @@ main()
   p = power(a,n);
   printf("%f raised to power %d is %f\n", a,n,p);
 } /* End of main() */
+float power(float a, int n)
+{
+  if(n == 0)
+    return(1);
+  else
+    return(a * power(a, n-1);
+} /* End of power() */
