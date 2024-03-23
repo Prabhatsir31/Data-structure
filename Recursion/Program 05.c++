@@ -6,11 +6,10 @@ main()
   int nterms, i;
   printf("Enter number of terms : ");
   scanf("%d", &nterms);
-  for(i=0; i,nterms; i++)
+  for(i=0; i<nterms; i++)
     printf("%d ", fib(i));
   printf("\n");
 } /* End of main() */
-
 
 int fib(int n)
 {
