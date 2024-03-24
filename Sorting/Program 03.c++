@@ -4,7 +4,8 @@
 #define MAX 100
 main()
 {
-  printf("Enter the number of element : ");
+  int arr[MAX], i, j, k, n;
+  printf("Enter the number of elements : ");
   scanf("%d", &n);
   for(i=0; i<n; i++)
     {
