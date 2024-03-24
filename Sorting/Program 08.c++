@@ -49,6 +49,7 @@ struct node *insert(struct node *root, int ikey)
       else
         ptr = ptr->rchild;
     }
+  
 } /* End of insert() */
 
 
