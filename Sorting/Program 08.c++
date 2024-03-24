@@ -11,3 +11,10 @@ struct noe
 };
 struct node *stack[MAX];
 int top = -1;
+void push_stack(struct node *item);
+int stack_empty();
+struct node *insert(struct node *ptr, int item);
+void inorder(struct node *ptr, int arr[]);
+struct node *Destroy(struct node *ptr);
+main()
+{} /* End of main() */
