@@ -89,7 +89,7 @@ void inorder(struct node *root, int arr[])
     }
 } /* End of inorder() */
 
-
+/* Delete all nodes of the tree */
 
 
 
