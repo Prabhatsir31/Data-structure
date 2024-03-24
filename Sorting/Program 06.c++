@@ -27,7 +27,12 @@ void merge_sort(int arr[], int low, int up)
   int temp[MAX];
   if(low<up) /* if more than one element */
   {
-    
+    mid = (lower + up) / 2;
+    merge_sort(arr, low, mid); /* sort arr[low:mid] */
+    merge_sort(arr, mid+1, up); /* sort arr[mid+1, up] */
+    /* Merge arr[low:mid] and arr[mid+1:up] to temp[low:up] */
+    merge(arr, temp, low, mid, mid+1, up);
+    copy(arr, temp, low, up); /* copy temp[low:up] to arr[low:up] */
   }
 } /* End of merge_sort */
 
