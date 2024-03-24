@@ -122,5 +122,11 @@ struct node *pop_stack()
   item=stack[top--];
   return item;
 } /* End of pop_stack() */
-
+intstack_empty()
+{
+  if(top==-1)
+    return 1;
+  else
+    return 0;
+} /* End of stack_empty() */
 
