@@ -5,7 +5,7 @@
 #define MAX 100
 struct noe
 {
-  struct node *1child;
+  struct node *lchild;
   int info;
   struct node *rchild;
 };
@@ -38,6 +38,17 @@ main()
 
 struct node *insert(struct node *root, int ikey)
 {
+  struct node *tmp, *par, *ptr;
+  ptr = root;
+  par = NULL;
+  while(ptr != NULL)
+    {
+      par = ptr;
+      if(ikey < ptr->info)
+        ptr = ptr->lchild;
+      else
+        ptr = ptr->rchild;
+    }
   
 } /* End of insert() */
 
