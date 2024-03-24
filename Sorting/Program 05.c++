@@ -41,7 +41,10 @@ void merge(int arr1[], int arr2[], int arr3[], int n1, int n2)
       else
         arr3[k++] = arr2[j++];
     }
-  
+  while(i <= n1-1) /* Put remaining elements of arr1 into arr3 */
+    arr3[k++] = arr1[i++];
+  while(j <= n2-1) /* Put remaining elements of arr2 into arr3 */
+    arr3[k++] = arr2[j++];
 } /* End of merge() */
 
 
