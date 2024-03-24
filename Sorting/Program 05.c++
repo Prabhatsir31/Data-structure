@@ -36,7 +36,8 @@ void merge(int arr1[], int arr2[], int arr3[], int n1, int n2)
   k = 0; /* Index for merged array */
   while(( i <= n1-1 ) && ( j <=  n2-1 ))
     {
-      
+      if(arr1[i] < arr2[j])
+        arr3[k++] = arr1[i++];
     }
 } /* End of merge() */
 
