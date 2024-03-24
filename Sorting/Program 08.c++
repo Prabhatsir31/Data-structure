@@ -111,6 +111,16 @@ void push_stack(struct node *item)
   stack[++top]=item;
 } /* End of push_stack() */
 
-
+struct node *pop_stack()
+{
+  struct node *item;
+  if(top==-1)
+  {
+    printf("Stack Overflow\n");
+    exit(1);
+  }
+  item=stack[top--];
+  return item;
+} /* End of pop_stack() */
 
 
