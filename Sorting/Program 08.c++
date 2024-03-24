@@ -90,7 +90,16 @@ void inorder(struct node *root, int arr[])
 } /* End of inorder() */
 
 /* Delete all nodes of the tree */
-
+struct node *Destroy(struct node *ptr)
+{
+  if(ptr!=NULL)
+  {
+    Destroy(ptr->lchild);
+    Destroy(ptr->rchild);
+    free(ptr);
+  }
+  return NULL;
+} /* End of DEstroy() */
 
 
 
