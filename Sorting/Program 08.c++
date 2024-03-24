@@ -61,7 +61,33 @@ struct node *insert(struct node *root, int ikey)
     par->rchild=tmp;
 } /* End of insert() */
 
-
+void inorder(struct node *root, int arr[])
+{
+  struct node *ptr=root;
+  int i=0;
+  if(ptr==NULL)
+  {
+    printf("Tree is empty\n");
+    return;
+  }
+  while(1)
+    {
+      while(ptr->lchild!=NULL)
+        {
+          push_Stack(ptr);
+          ptr = ptr->lchild;
+        }
+      while(ptr->rchild==NULL)
+        {
+          arr[i++] = ptr->info;
+          if(stack_empty())
+            return;
+          ptr = pop_stack();
+        }
+      arr[i++] = ptr->info;
+      ptr = ptr->rchild;
+    }
+} /* End of inorder() */
 
 
 
