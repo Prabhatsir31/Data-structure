@@ -49,7 +49,16 @@ struct node *insert(struct node *root, int ikey)
       else
         ptr = ptr->rchild;
     }
-  
+  tmp->(struct node *)malloc(sizeof(struct node));
+  tmp->info=ikey;
+  tmp->lchild=NULL;
+  tmp->rchild=NULL;
+  if(par==NULL)
+    root=tmp;
+  else if(ikey < par->info)
+    par->lchild=tmp;
+  else
+    par->rchild=tmp;
 } /* End of insert() */
 
 
