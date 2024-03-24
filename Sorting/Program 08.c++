@@ -99,9 +99,17 @@ struct node *Destroy(struct node *ptr)
     free(ptr);
   }
   return NULL;
-} /* End of DEstroy() */
+} /* End of Destroy() */
 
-
+void push_stack(struct node *item)
+{
+  if(top==(MAX-1))
+  {
+    printf("Stack Overflow\n");
+    return;
+  }
+  stack[++top]=item;
+} /* End of push_stack() */
 
 
 
