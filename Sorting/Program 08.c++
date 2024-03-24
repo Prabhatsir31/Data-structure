@@ -17,4 +17,37 @@ struct node *insert(struct node *ptr, int item);
 void inorder(struct node *ptr, int arr[]);
 struct node *Destroy(struct node *ptr);
 main()
-{} /* End of main() */
+{
+  struct node *root=NULL;
+  int arr[MAX], n, i;
+  printf("Enter the number of elements : ");\
+  scanf("%d", &n);
+  for(i=0; i<n; i++)
+    {
+      printf("Enter element %d : ", i+1);
+      scanf("%d", &arr[i]);
+    }
+  for(i=0; i<n; i++)
+    root = insert(root, arr[i]);
+  inorder(root, arr);
+  printf("\nSorted list is : \n");
+  for(i=0; i<n; i++)
+    printf("%d ", arr[i]);
+  root = Destroy(root);
+} /* End of main() */
+
+struct node *insert(struct node *root, int ikey)
+{
+  
+} /* End of insert() */
+
+
+
+
+
+
+
+
+
+
+
