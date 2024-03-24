@@ -2,3 +2,7 @@
 
 #include<stdio.h>
 #efine MAX 100
+void merge ()
+{
+  
+}
