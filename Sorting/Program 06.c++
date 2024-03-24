@@ -26,6 +26,9 @@ void merge_sort(int arr[], int low, int up)
   int mid;  
   int temp[MAX];
   if(low<up) /* if more than one element */
+  {
+    
+  }
 } /* End of merge_sort */
 
 
