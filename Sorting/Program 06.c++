@@ -56,3 +56,4 @@ void merge(int arr[], int temp[], int low1, int up1, int low2, int up2)
 } /* End of merge() */
 
 void copy(int arr[], int temp[], int low, int up)
+{} /* End of copy() */
