@@ -19,5 +19,8 @@ main()
         arr[j+1] = arr[j];
       arr[j+1] = k;
     }
-  
-}
+  printf("Sorted list is : \n");
+  for(i=0; i<n; i++)
+    printf("%d", arr[i]);
+  printf("\n");
+} /* End of main() */
