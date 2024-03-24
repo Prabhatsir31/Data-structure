@@ -22,4 +22,24 @@ main()
 } /* End of main() */
 
 void merge_sort(int arr[], int low, int up)
-{} /* End of merge_sort */
+{
+  int mid;  
+} /* End of merge_sort */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
