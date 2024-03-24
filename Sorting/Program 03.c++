@@ -15,6 +15,9 @@ main()
   for(i=1; i<n; i++)
     {
       k=arr[i]; /* k is to be inserted at proper place */
-      for()
+      for(j=i-1; j>=0 && k<arr[j]; j--)
+        arr[j+1] = arr[j];
+      arr[j+1] = k;
     }
+  
 }
