@@ -8,4 +8,6 @@ main()
   printf("Enter the number of elements : ");
   scanf("%d", &size);
   printf("Enter the elements (in sorted order) :  \n");
+  for(i=0; i<size; i++)
+    scanf("");
 } /* End of main() */
