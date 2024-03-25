@@ -25,5 +25,12 @@ int BinarySearch(int arr[], int size, int item)
   while(low <= up)
     {
       mid = (low+up)/2;
+      if(item > arr[mid])
+        low = mid + 1; /* search in right half */
+      else if(item < arr[mid]) /* search in left half */
+        up = mid + 1;
+      else
+        return mid;
     }
+  return -1;
 }
