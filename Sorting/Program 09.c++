@@ -35,3 +35,4 @@ void heap_sort(int arr[], int size)
         arr[size+1] = max;
     }
 } /* End of heap_sort */
+void buildHeap(int arr[], int size)
