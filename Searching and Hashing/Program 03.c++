@@ -20,4 +20,7 @@ void del(int key, struct Record table[]);
 void display(struct Record table[]);
 int hash(int key);
 main()
-{} /* End of main() */
+{
+  int i, key, choice;
+  struct Record table[MAX];
+} /* End of main() */
