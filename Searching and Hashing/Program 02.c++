@@ -5,5 +5,5 @@
 main()
 {
   int i, size, item, arr[MAX], index;
-  printf("");
+  printf("Enter the number of elements : ");
 } /* End of main() */
