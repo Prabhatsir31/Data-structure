@@ -9,3 +9,8 @@ struct employee
   char name[20];
   int age;
 };
+struct Record
+{
+  struct employee info;
+enum type_of_record status;
+}
