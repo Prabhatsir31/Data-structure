@@ -28,6 +28,7 @@ main()
     table[i].status = EMPTY;
   while(1)
     {
+      printf("1. Insert a record\n");
       
     }
 } /* End of main() */
