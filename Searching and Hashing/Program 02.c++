@@ -12,5 +12,5 @@ main()
     scanf("%d", &arr[i]);
   printf("Enter the item to be searched : ");
   scanf("%d", &item);
-  
+  inex = BinarySearch(arr, size, item);
 } /* End of main() */
