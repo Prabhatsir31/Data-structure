@@ -7,3 +7,4 @@ struct node
     int info;
     struct node *link;
 }*start = NULL;
+void radix_sort();
