@@ -40,3 +40,4 @@ void buildHeap(int arr[], int size)
     int i;
     for(i=size/2; i>=1; i--)
       restoreDown(arr, i, size);
+} /* End of buildHeap() */
