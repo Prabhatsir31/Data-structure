@@ -23,3 +23,6 @@ main()
   printf("Sorted list is :\n");
   display(arr,n);
 } /* End of main() */
+
+void heap_sort()
+{} /* End of heap_sort */
