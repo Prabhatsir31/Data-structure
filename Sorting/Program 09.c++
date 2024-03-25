@@ -29,3 +29,4 @@ void heap_sort(int arr[], int size)
     buildHeap(arr,size);  
     printf("Heap is : ");
     display(arr, size);
+    while(size > 1)
