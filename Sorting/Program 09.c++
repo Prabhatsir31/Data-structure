@@ -38,3 +38,4 @@ void heap_sort(int arr[], int size)
 void buildHeap(int arr[], int size)
 {
     int i;
+    for(i=size/2; i>=1; i--)
