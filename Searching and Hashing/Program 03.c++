@@ -23,4 +23,5 @@ main()
 {
   int i, key, choice;
   struct Record table[MAX];
+  struct employee emprec;
 } /* End of main() */
