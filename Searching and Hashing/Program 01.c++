@@ -7,4 +7,5 @@ main()
   int i, item, arr[MAX], index;
   printf("Enter the number of elements : ");
   scanf("%d", &n);
+  printf("Enter the elements : \n");
 } /* End of main() */
