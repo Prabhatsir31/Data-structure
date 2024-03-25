@@ -36,3 +36,5 @@ void heap_sort(int arr[], int size)
     }
 } /* End of heap_sort */
 void buildHeap(int arr[], int size)
+{
+    int i;
