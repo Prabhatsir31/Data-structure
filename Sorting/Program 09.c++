@@ -28,3 +28,4 @@ void heap_sort(int arr[], int size)
     int max;
     buildHeap(arr,size);  
     printf("Heap is : ");
+    display(arr, size);
