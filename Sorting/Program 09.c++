@@ -34,3 +34,4 @@ void heap_sort(int arr[], int size)
         max = del_root(arr, &size);
         arr[size+1] = max;
     }
+} /* End of heap_sort */
