@@ -2,3 +2,5 @@
 
 #include<stdio.h>
 #define MAX 50
+main()
+{} /* End of main() */
