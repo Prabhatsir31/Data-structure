@@ -25,4 +25,6 @@ main()
 } /* End of main() */
 
 void heap_sort()
-{} /* End of heap_sort */
+{
+  int MAX;
+} /* End of heap_sort */
