@@ -41,3 +41,6 @@ void buildHeap(int arr[], int size)
     for(i=size/2; i>=1; i--)
       restoreDown(arr, i, size);
 } /* End of buildHeap() */
+
+int del_root(int arr[], int *size)
+{
