@@ -29,6 +29,6 @@ main()
   while(1)
     {
       printf("1. Insert a record\n");
-      
+      printf("2. Search a record\n");
     }
 } /* End of main() */
