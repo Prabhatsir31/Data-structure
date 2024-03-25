@@ -23,4 +23,7 @@ int BinarySearch(int arr[], int size, int item)
 {
   int low=0, up=size-1, mid;
   while(low <= up)
+    {
+      mid = (low+up)/2;
+    }
 }
