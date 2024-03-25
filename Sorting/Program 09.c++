@@ -47,5 +47,7 @@ int del_root(int arr[], int *size)
   int max = arr[1];
   arr[1] = arr[*size];
   (*size)--;
+  restoreDown(arr, 1, *size);
+  return max;
 } /* End of del_root() */
     
