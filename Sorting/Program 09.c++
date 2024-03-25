@@ -51,3 +51,34 @@ int del_root(int arr[], int *size)
   return max;
 } /* End of del_root() */
     
+void restoreDown(int arr[], int i, int size)
+{
+    int left=2*i, right=left+1;
+    int num = arr[i];
+    while(right<=size)
+    {
+        if(num>=arr[left] && num>=arr[right])
+        {
+            arr[i] num;
+            return;
+        }
+        else if(arr[left] > arr[right])
+        {
+            arr[i] = arr[left];
+            i = left;
+        }
+        else
+        {
+            arr[i] = arr[right];
+            i = right;
+        }
+        left = 2 * i;
+        right = left + 1; 
+    }
+    if(left == size && num < arr[left]) /* when right == size+1 */
+    {
+        arr[i] = arr[left];
+        i = left;
+    }
+    arr[i] = num;
+} /* End of restoreDown() */
