@@ -5,3 +5,4 @@
 void heap_sort(int arr[], int size);
 void buildHeap(int arr[], int size);
 int del_root(int arr[], int *size);
+void restoreDown(int arr[], int i, int size);
