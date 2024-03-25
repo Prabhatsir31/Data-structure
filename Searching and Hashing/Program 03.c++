@@ -32,5 +32,8 @@ main()
       printf("2. Search a record\n");
       printf("3. Delete a record\n");
       printf("4. Display table\n");
+      printf("5. Exit\n");
+      printf("Enter your choicce\n");
+      scanf("%d", &choice\n);
     }
 } /* End of main() */
