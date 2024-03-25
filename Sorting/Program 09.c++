@@ -82,3 +82,5 @@ void restoreDown(int arr[], int i, int size)
     }
     arr[i] = num;
 } /* End of restoreDown() */
+
+void display(int arr[], int n)
