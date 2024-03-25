@@ -38,7 +38,8 @@ main()
       switch(choice)
         {
           case 1:
-            printf("");
+            printf("Enter empid.name, age : ");
+            scanf("%d%s%d", &emprec.empid, emprec.name, &emprec.age);
         } /* End of switch() */
     } /* End of while() */
 } /* End of main() */
