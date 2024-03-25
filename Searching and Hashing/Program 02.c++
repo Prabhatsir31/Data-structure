@@ -11,5 +11,5 @@ main()
   for(i=0; i<size; i++)
     scanf("%d", &arr[i]);
   printf("Enter the item to be searched " ");
-  scanf("");
+  scanf("%d", &item);
 } /* End of main() */
