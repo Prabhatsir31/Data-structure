@@ -35,5 +35,7 @@ main()
       printf("5. Exit\n");
       printf("Enter your choicce\n");
       scanf("%d", &choice\n);
-    }
+      switch(choice)
+        {} /* End of switch() */
+    } /* End of while() */
 } /* End of main() */
