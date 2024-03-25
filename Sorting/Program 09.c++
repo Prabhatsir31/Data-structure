@@ -8,4 +8,7 @@ int del_root(int arr[], int *size);
 void restoreDown(int arr[], int i, int size);
 void display(int arr[], int n);
 main()
-{} /* End of main() */
+{
+  int i, n, arr[MAX];
+  
+} /* End of main() */
