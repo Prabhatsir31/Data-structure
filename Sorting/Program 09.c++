@@ -85,5 +85,8 @@ void restoreDown(int arr[], int i, int size)
 
 void display(int arr[], int n)
 {
-  
+  int i;
+  for(i=1; i<=n; i++)
+      printf("%d ", arr[i]);
+  printf("\n");
 } /* End of display() */
