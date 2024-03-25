@@ -26,4 +26,7 @@ int LinearSearch(int arr[], int n, int item)
   while(i<n; && item!=arr[i])
     i++;
   if(i<n)
+    return i;
+  else
+    return -1;
 }
