@@ -8,3 +8,4 @@ struct node
     struct node *link;
 }*start = NULL;
 void radix_sort();
+int large_dig();
