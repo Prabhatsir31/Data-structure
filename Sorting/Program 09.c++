@@ -11,5 +11,6 @@ main()
 {
   int i, n, arr[MAX];
   printf("Enter number of elements : ");
+  scanf("%d", &n);
   
 } /* End of main() */
