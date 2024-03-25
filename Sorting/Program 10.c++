@@ -10,3 +10,4 @@ struct node
 void radix_sort();
 int large_dig();
 int digit(int number, int k);
+main()
