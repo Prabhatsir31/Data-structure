@@ -9,5 +9,5 @@ main()
   scanf("%d", &size);
   printf("Enter the elements (in sorted order) :  \n");
   for(i=0; i<size; i++)
-    scanf("");
+    scanf("%d", &arr[i]);
 } /* End of main() */
