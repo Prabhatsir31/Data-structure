@@ -19,3 +19,5 @@ int search(int key, struct Record table[]);
 void del(int key, struct Record table[]);
 void display(struct Record table[]);
 int hash(int key);
+main()
+{} /* End of main() */
