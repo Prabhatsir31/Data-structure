@@ -30,3 +30,7 @@ void heap_sort(int arr[], int size)
     printf("Heap is : ");
     display(arr, size);
     while(size > 1)
+    {
+        max = del_root(arr, &size);
+        arr[size+1] = max;
+    }
