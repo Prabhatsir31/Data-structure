@@ -20,4 +20,6 @@ main()
 } /* End of main() */
 
 int BinarySearch(int arr[], int size, int item)
-{}
+{
+  int low=0, up=size-1, mid;
+}
