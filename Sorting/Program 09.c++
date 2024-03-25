@@ -86,4 +86,4 @@ void restoreDown(int arr[], int i, int size)
 void display(int arr[], int n)
 {
   
-}
+} /* End of display() */
