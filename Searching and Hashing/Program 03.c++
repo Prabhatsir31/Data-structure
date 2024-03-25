@@ -30,5 +30,6 @@ main()
     {
       printf("1. Insert a record\n");
       printf("2. Search a record\n");
+      printf("3. Delete a record\n");
     }
 } /* End of main() */
