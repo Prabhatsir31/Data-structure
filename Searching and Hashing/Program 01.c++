@@ -8,4 +8,8 @@ main()
   printf("Enter the number of elements : ");
   scanf("%d", &n);
   printf("Enter the elements : \n");
+  for(i=0; i<n; i++)
+    {
+      
+    }
 } /* End of main() */
