@@ -14,5 +14,5 @@ main()
     }
   printf("Enter the item to be searched : ");
   scanf("%d", &arr[i]);
-  
+  index = LinearSearch(arr, n, item);
 } /* End of main() */
