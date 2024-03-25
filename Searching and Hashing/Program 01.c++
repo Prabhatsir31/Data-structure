@@ -20,5 +20,7 @@ main()
   else
     printf("%d found at position %d\n", item, index);
 } /* End of main() */
-int LinearSearch()
-{}
+int LinearSearch(int arr[], int n, int item)
+{
+  
+}
