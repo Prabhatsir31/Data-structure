@@ -44,3 +44,6 @@ void buildHeap(int arr[], int size)
 
 int del_root(int arr[], int *size)
 {
+  
+} /* End of del_root() */
+    
