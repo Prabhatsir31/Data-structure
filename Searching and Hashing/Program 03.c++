@@ -40,6 +40,19 @@ main()
           case 1:
             printf("Enter empid.name, age : ");
             scanf("%d%s%d", &emprec.empid, emprec.name, &emprec.age);
+            insert(emprec,table);
+            break;
+          case 2:
+            printf("Enter a key to be searched : ");
+            scanf("%d", &key);
+            i = search(key, table);
+            if(i==1)
+              printf("key not found\n");
+            else
+              printf("key found at index %d\n");
+            break;
+          case 3:
+            printf("");
         } /* End of switch() */
     } /* End of while() */
 } /* End of main() */
