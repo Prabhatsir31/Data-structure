@@ -12,5 +12,10 @@ struct employee
 struct Record
 {
   struct employee info;
-enum type_of_record status;
-}
+  enum type_of_record status;
+};
+void insert(struct employee emprec, struct Record table[]);
+int search(int key, struct Record table[]);
+void del(int key, struct Record table[]);
+void display(struct Record table[]);
+int hash(int key);
