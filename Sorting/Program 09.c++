@@ -13,5 +13,13 @@ main()
   printf("Enter number of elements : ");
   scanf("%d", &n);
   for(i=1; i<=n; i++)
-    {}
+    {
+      printf("Enter element %d : ");
+      scanf("%d", &arr[]);
+    }
+  printf("Entered list is :\n");
+  display(arr,n);
+  heap_sort(arr,n);
+  printf("Sorted list is :\n");
+  display(arr,n);
 } /* End of main() */
