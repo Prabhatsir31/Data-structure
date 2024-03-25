@@ -10,5 +10,6 @@ void display(int arr[], int n);
 main()
 {
   int i, n, arr[MAX];
+  printf("Enter number of elements : ");
   
 } /* End of main() */
