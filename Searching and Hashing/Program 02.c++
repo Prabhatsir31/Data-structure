@@ -19,4 +19,5 @@ main()
     printf("%d found at position %d\n", item, index);
 } /* End of main() */
 
-
+int BinarySearch(int arr[], int size, int item)
+{}
