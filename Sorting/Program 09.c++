@@ -24,4 +24,6 @@ main()
   display(arr,n);
 } /* End of main() */
 void heap_sort(int arr[], int size)
-
+{
+    int max;
+    buildHeap(arr,size);  
