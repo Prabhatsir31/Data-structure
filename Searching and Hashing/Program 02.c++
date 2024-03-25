@@ -3,4 +3,6 @@
 #include<stdio.h>
 #define MAX 50
 main()
-{} /* End of main() */
+{
+  int i, size, item, arr[MAX], index;
+} /* End of main() */
