@@ -24,4 +24,10 @@ main()
   int i, key, choice;
   struct Record table[MAX];
   struct employee emprec;
+  for(i=0; i<=MAX-1; i++)
+    table[i].status = EMPTY;
+  while(1)
+    {
+      
+    }
 } /* End of main() */
