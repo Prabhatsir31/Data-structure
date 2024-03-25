@@ -1,1 +1,1 @@
-
+/* Sequential search in an array */
