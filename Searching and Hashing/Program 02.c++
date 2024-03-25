@@ -14,4 +14,7 @@ main()
   scanf("%d", &item);
   index = BinarySearch(arr, size, item);
   if(idex == -1)
+    printf("%d not found in array\n", item);
+  else
+    printf("");
 } /* End of main() */
