@@ -44,6 +44,7 @@ void buildHeap(int arr[], int size)
 
 int del_root(int arr[], int *size)
 {
-  
+  int max = arr[1];
+    arr[1] = arr[*size];
 } /* End of del_root() */
     
