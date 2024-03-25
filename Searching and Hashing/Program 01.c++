@@ -13,5 +13,6 @@ main()
       scanf("%d", &arr[i]);
     }
   printf("Enter the item to be searched : ");
+  scanf("%d", &arr[i]);
   
 } /* End of main() */
