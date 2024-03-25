@@ -49,10 +49,19 @@ main()
             if(i==1)
               printf("key not found\n");
             else
-              printf("key found at index %d\n");
+              printf("key found at index %d\n",i);
             break;
           case 3:
-            printf("");
+            printf("Enter a key to be deleted\n");
+            scanf("%d", &key);
+            del(key, table);
+            break;
+          case 4: 
+            display(table);
+            break;
+          case 5:
+            exit(1);
         } /* End of switch() */
     } /* End of while() */
 } /* End of main() */
+
