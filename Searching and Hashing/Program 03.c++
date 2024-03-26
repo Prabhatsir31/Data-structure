@@ -81,4 +81,6 @@ int search(int key, struct Record table[])
 } /* End of search() */
 
 void insert()
-{} /* End of insert() */
+{
+  int i, location, h;
+} /* End of insert() */
