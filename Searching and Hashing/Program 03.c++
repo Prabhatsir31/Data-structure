@@ -83,4 +83,5 @@ int search(int key, struct Record table[])
 void insert()
 {
   int i, location, h;
+  int key = emprec.empid;  /* Extract ke from the record */
 } /* End of insert() */
