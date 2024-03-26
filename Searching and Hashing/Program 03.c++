@@ -98,6 +98,7 @@ void insert()
       if(table[location].info.empid == key)
       {
         printf("Duplicate key\n\n");
+        return;
       }
     }
 } /* End of insert() */
