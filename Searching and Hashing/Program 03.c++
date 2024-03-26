@@ -129,7 +129,7 @@ void del()
   if(location == -1)
     printf("key not found");
   else
-    
+    table([location].status = DELETED);
 } /* End of del() */
 
 int hash(int key)
