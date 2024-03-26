@@ -122,3 +122,6 @@ void display(struct Record table[])
         printf("Empty\n");
     }
 } /* End of display() */
+
+int hash(int key)
+{} /*  */
