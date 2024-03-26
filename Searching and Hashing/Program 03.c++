@@ -95,5 +95,6 @@ void insert()
         printf("Record inserted\n\n");
         return;
       }
+      if(table[location].info.empid == key)
     }
 } /* End of insert() */
