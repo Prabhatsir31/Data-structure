@@ -102,4 +102,5 @@ void insert()
       }
       location = (h+i)%MAX;
     }
+  printf("Record can't be inserted : Table overflow\n\n);
 } /* End of insert() */
