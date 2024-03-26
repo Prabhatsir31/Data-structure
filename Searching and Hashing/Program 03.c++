@@ -73,5 +73,6 @@ int search(int key, struct Record table[])
   for(i=1; i!=MAX; i++)
     {
       if(table[location].status == EMPTY)
+        return -1;
     }
 } /* End of search() */
