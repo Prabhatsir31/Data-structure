@@ -92,6 +92,8 @@ void insert()
       {
         table[location].info = emprec;
         table[location].status = OCCUPIED;
+        printf("Record inserted\n\n");
+        return;
       }
     }
 } /* End of insert() */
