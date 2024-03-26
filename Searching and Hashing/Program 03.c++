@@ -106,4 +106,6 @@ void insert()
 } /* End of insert() */
 
 void display(struct Record table[])
-{} /* End of display() */
+{
+  
+} /* End of display() */
