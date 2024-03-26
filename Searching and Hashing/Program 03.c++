@@ -104,3 +104,6 @@ void insert()
     }
   printf("Record can't be inserted : Table overflow\n\n);
 } /* End of insert() */
+
+void display(struct Record table[])
+{} /* End of display() */
