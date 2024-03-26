@@ -100,5 +100,6 @@ void insert()
         printf("Duplicate key\n\n");
         return;
       }
+      location = (h+i)%MAX;
     }
 } /* End of insert() */
