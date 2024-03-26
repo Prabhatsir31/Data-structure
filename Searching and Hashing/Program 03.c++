@@ -107,5 +107,6 @@ void insert()
 
 void display(struct Record table[])
 {
+  int i;
   
 } /* End of display() */
