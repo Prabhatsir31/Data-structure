@@ -124,4 +124,6 @@ void display(struct Record table[])
 } /* End of display() */
 
 int hash(int key)
-{} /*  */
+{
+  
+} /* End of hash() */
