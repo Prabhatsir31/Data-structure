@@ -86,4 +86,5 @@ void insert()
   int key = emprec.empid;  /* Extract ke from the record */
   h = hash(key);
   location = h; 
+  for(i=1; i!=MAX; i++)
 } /* End of insert() */
