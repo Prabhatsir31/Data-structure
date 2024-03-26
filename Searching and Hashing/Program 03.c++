@@ -127,6 +127,7 @@ void del()
 {
   int location = search(key, table);
   if(location == -1)
+    printf("key not found");
 } /* End of del() */
 
 int hash(int key)
