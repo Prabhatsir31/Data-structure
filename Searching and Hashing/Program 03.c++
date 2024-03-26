@@ -74,5 +74,7 @@ int search(int key, struct Record table[])
     {
       if(table[location].status == EMPTY)
         return -1;
+      if(table[location].info.empid == key)
+        
     }
 } /* End of search() */
