@@ -90,7 +90,7 @@ void insert()
     {
       if(table[location].status == EMPTY || table[location].status == DELETED)
       {
-        
+        table[location].info = emprec;
       }
     }
 } /* End of insert() */
