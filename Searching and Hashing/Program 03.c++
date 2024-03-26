@@ -77,5 +77,5 @@ int search(int key, struct Record table[])
       if(table[location].info.empid == key)
         location = (h+i)%MAX;
     }
-  re
+  return -1;
 } /* End of search() */
