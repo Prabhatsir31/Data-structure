@@ -96,5 +96,8 @@ void insert()
         return;
       }
       if(table[location].info.empid == key)
+      {
+        
+      }
     }
 } /* End of insert() */
