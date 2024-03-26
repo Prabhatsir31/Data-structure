@@ -114,7 +114,7 @@ void display(struct Record table[])
       if(table[i].status == OCCUPIED)
       {
         printf("Occupied : %d %s",table[i].info.empid, table[i].info.name);
-        
+        printf("   %d\n", table[i].info.age);
       }
     }
 } /* End of display() */
