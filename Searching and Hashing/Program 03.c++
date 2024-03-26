@@ -126,7 +126,7 @@ void display(struct Record table[])
 void del()
 {
   int location = search(key, table);
-  if()
+  if(location == -1)
 } /* End of del() */
 
 int hash(int key)
