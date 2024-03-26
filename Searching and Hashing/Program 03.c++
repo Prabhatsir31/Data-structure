@@ -79,3 +79,6 @@ int search(int key, struct Record table[])
     }
   return -1;
 } /* End of search() */
+
+void insert()
+{} /* End of insert() */
