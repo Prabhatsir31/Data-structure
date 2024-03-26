@@ -91,6 +91,7 @@ void insert()
       if(table[location].status == EMPTY || table[location].status == DELETED)
       {
         table[location].info = emprec;
+        table[location].status = OCCUPIED;
       }
     }
 } /* End of insert() */
