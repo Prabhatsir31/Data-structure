@@ -87,4 +87,7 @@ void insert()
   h = hash(key);
   location = h; 
   for(i=1; i!=MAX; i++)
+    {
+      if(table[location].status == EMPTY || )
+    }
 } /* End of insert() */
