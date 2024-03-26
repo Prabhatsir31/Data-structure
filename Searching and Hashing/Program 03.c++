@@ -65,3 +65,4 @@ main()
     } /* End of while() */
 } /* End of main() */
 
+int search(int key, struct Record table[])
