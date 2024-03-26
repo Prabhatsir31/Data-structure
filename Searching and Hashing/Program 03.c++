@@ -113,7 +113,8 @@ void display(struct Record table[])
       printf("[%d] : ",i);
       if(table[i].status == OCCUPIED)
       {
-        printf("Occupied : %d %s",);
+        printf("Occupied : %d %s",table[i].info.empid, table[i].info.name);
+        
       }
     }
 } /* End of display() */
