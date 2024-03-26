@@ -1,3 +1,3 @@
 # Data-structure
 <hr>
-Ths is the some basic program in c++
+Ths is the some basic program in c++.
