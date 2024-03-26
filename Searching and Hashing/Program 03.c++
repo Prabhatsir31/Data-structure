@@ -117,5 +117,8 @@ void display(struct Record table[])
         printf("   %d\n", table[i].info.age);
       }
       else if(table[i].status == DELETED)
+        printf("Deleted\n");
+      else
+        printf("Empty\n");
     }
 } /* End of display() */
