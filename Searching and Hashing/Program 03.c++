@@ -116,5 +116,6 @@ void display(struct Record table[])
         printf("Occupied : %d %s",table[i].info.empid, table[i].info.name);
         printf("   %d\n", table[i].info.age);
       }
+      else if(table[i].status == DELETED)
     }
 } /* End of display() */
