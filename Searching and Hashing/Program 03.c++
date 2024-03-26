@@ -110,6 +110,6 @@ void display(struct Record table[])
   int i;
   for(i=0; i<MAX; i++)
     {
-      
+      printf("");
     }
 } /* End of display() */
