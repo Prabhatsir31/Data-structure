@@ -69,4 +69,6 @@ int search(int key, struct Record table[])
 {
   int i, h, location;
   h = hash(key);
+  location = h;
+  
 } /* End of search() */
