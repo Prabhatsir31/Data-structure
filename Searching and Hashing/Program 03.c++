@@ -66,4 +66,6 @@ main()
 } /* End of main() */
 
 int search(int key, struct Record table[])
-{} /* End of search() */
+{
+  int i, h, location;
+} /* End of search() */
