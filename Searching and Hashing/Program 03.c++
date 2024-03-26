@@ -89,5 +89,8 @@ void insert()
   for(i=1; i!=MAX; i++)
     {
       if(table[location].status == EMPTY || table[location].status == DELETED)
+      {
+        
+      }
     }
 } /* End of insert() */
