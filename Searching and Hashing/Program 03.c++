@@ -71,5 +71,7 @@ int search(int key, struct Record table[])
   h = hash(key);
   location = h;
   for(i=1; i!=MAX; i++)
-    {}
+    {
+      if(table[location].status == EMPTY)
+    }
 } /* End of search() */
