@@ -111,5 +111,6 @@ void display(struct Record table[])
   for(i=0; i<MAX; i++)
     {
       printf("[%d] : ",i);
+      if(table[i].status == OCCUPIED)
     }
 } /* End of display() */
