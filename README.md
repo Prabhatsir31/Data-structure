@@ -1,7 +1,7 @@
 # Data-structure
 <hr>
 
-
+<!--
 <div align="center">
   <img src="dsa_logo.webp" height="200" width="600">
 </div>
@@ -71,6 +71,6 @@ You can also follow my GitHub profile to stay updated on my latest projects:
 Prabhatsir31
 </a>
 
-
+-->
 
 
