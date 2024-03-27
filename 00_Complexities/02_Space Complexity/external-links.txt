@@ -1,3 +1,0 @@
-# Space Complexity
-
-https://www.geeksforgeeks.org/g-fact-86/
