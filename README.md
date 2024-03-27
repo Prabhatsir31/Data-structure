@@ -1,6 +1,6 @@
 # Data-structure
 <hr>
-<div align="center">
+<!-- <div align="center">
   <img src="dsa_logo.webp">
 </div>
 <br>
@@ -79,3 +79,4 @@ You can also follow my GitHub profile to stay updated on my latest projects:
 
 
 
+ -->
