@@ -18,7 +18,7 @@ One of the most basic ways to understand `space complexity` is to consider the *
 
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/spacecomplexity-1.png" style="height: 30vh; padding-left: 40vh;">
+    <img src="/04_Material/CodeSnaps/spacecomplexity-1.png" style="height: 30vh; padding-left: 40vh;">
     
  </p>
 
@@ -27,7 +27,7 @@ In this example, the `space complexity` is `O(1)` because the **size** of the ar
 
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/spacecomplexity-2.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/04_Material/CodeSnaps/spacecomplexity-2.png" style="height: 40vh; padding-left: 50vh;">
     
  </p>
 
@@ -38,7 +38,7 @@ In this example, the `space complexity` is `O(n)` where n is the number of eleme
 
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/spacecomplexity-3.png" style="height: 30vh; padding-left: 40vh;">
+    <img src="/04_Material/CodeSnaps/spacecomplexity-3.png" style="height: 30vh; padding-left: 40vh;">
     
 </p>
 
@@ -49,7 +49,7 @@ In this example, the function creates 1000 integer variables, each taking up `si
 
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/spacecomplexity-4.png" style="height: 30vh; padding-left: 40vh;">
+    <img src="/04_Material/CodeSnaps/spacecomplexity-4.png" style="height: 30vh; padding-left: 40vh;">
     
 </p>
 
@@ -67,7 +67,7 @@ In this example, the function creates n objects of **SomeClass**, each object ta
 
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/spacecomplexity-5.png" style="height: 70vh; padding-left: 80vh;">
+    <img src="/04_Material/CodeSnaps/spacecomplexity-5.png" style="height: 70vh; padding-left: 80vh;">
     
  </p>
 
