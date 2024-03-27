@@ -23,7 +23,7 @@ Let's take a look at a few examples of algorithms and their time complexities in
 ## Example 1: Linear search
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/time1.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/04_Material/CodeSnaps/time1.png" style="height: 40vh; padding-left: 50vh;">
     
  </p>
 
@@ -32,7 +32,7 @@ Let's take a look at a few examples of algorithms and their time complexities in
 ## Example 2: Bubble Sort
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/time2.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/04_Material/CodeSnaps/time2.png" style="height: 40vh; padding-left: 50vh;">
     
  </p>
 
@@ -63,7 +63,7 @@ Analyze the time complexity to understand how the algorithm performs as the inpu
 # Example:
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/time3.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/04_Material/CodeSnaps/time3.png" style="height: 40vh; padding-left: 50vh;">
  </p>
 
 Here, the basic operation is comparison of two integers and assignment operation. The number of times the comparison is performed is n-1, as the number of elements in the array are n. So, the time complexity of this algorithm is O(n) which is considered as Linear Time Complexity.
@@ -80,7 +80,7 @@ It's always important to test the algorithm with different inputs and different 
 Like ,
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/time4.png" style="height: 60vh; padding-left: 70vh;">
+    <img src="/04_Material/CodeSnaps/time4.png" style="height: 60vh; padding-left: 70vh;">
  </p>
 
 - The time complexity of **T=2n** and **T=cn** both are same even c = 100000000000 Consuming part is n
