@@ -4,7 +4,7 @@
 ## 1D Static Array
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/array-1.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/04_Material/CodeSnaps/array-1.png" style="height: 40vh; padding-left: 50vh;">
     
 </p>
 
@@ -12,7 +12,7 @@
 ## 2D Static Array
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/array-4.png" style="height: 30vh; padding-left: 40vh;">
+    <img src="/04_Material/CodeSnaps/array-4.png" style="height: 30vh; padding-left: 40vh;">
     
 </p>
 
