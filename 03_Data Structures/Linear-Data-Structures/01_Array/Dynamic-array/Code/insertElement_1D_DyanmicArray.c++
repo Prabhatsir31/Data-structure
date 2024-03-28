@@ -1,12 +1,6 @@
+/*Write a C++ program to insert the element at the specific position(index) in the one dimensional dyanmic array */
 
-/*Write a C++ program to insert the element at the specific position(index) in the one dimensional dyanmic array
- */
-/*Author :@haiderali780
-
-Time:28 Jan,2022 _6:01
-*/
 #include <iostream>
-
 using namespace std;
 
 void inputDynamicArr(int *&arr, int size)
