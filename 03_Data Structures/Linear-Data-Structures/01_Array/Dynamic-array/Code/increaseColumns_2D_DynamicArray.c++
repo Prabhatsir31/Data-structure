@@ -1,10 +1,4 @@
-/*Write a C++ program to increase the size of the columns by using Two dimensional (2D) dynamic arrays .
- */
-/*Author :@haiderali780
-
-Time:28 Jan,2022 _6:01
-*/
-
+/*Write a C++ program to increase the size of the columns by using Two dimensional (2D) dynamic arrays .*/
 #include <iostream>
 #include <iomanip>
 
