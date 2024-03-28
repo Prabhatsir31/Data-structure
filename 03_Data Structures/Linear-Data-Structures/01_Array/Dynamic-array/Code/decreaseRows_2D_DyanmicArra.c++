@@ -1,8 +1,4 @@
 /*Write a C++ program to decrease rows of 2D-Arrays during runTime*/
-/*Author :@haiderali780
-
-Time:28 Jan,2022 _6:01
-*/
 #include <iostream>
 #include <iomanip>
 
