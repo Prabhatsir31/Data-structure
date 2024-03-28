@@ -1,7 +1,3 @@
-// Author: Muhib Arshad (@muhib7353 everywhere)
-// Date and Time: 4 October , 2022  23:52:00
-// Question : FAST University Lab2 (OOP) : Instructor=> Mam Abeeda
-
 /*
 Write the following function that indirectly sorts the floats pointed to by the first n pointers in the array p by rearranging the pointers not data:
 
