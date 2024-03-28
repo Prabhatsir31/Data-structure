@@ -1,9 +1,3 @@
-/*
-File Name  : Binary Tree
-Purpose    : To explain binary tree
-Date       : 19 October 2018
-Author     : Bipul Islam
-*/
 #include<stdio.h>
 #include<stdlib.h>
 
