@@ -5,7 +5,7 @@
 ## What does array name means?
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/array-6.png" style="height: 30vh; padding-left: 40vh;">
+    <img src="/04_Material/CodeSnaps/array-6.png" style="height: 30vh; padding-left: 40vh;">
     
 </p>
 
@@ -14,7 +14,7 @@
 ## What does &array name means?
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/&arr.png" style="height: 30vh; padding-left: 30vh;">
+    <img src="/04_Material/CodeSnaps/&arr.png" style="height: 30vh; padding-left: 30vh;">
     
 </p>
 
@@ -25,7 +25,7 @@
 It is important to note that when `arr` is used in an expression, it is implicitly converted to a **pointer to the first element** of the array, which is why it has the same memory address as `&arr[0]`. Similarly, when `&arr` is used in an expression, it is implicitly converted to a **pointer to the array**, which is why it has the **same memory address** as arr. However, when you use `*(arr)` it will give you the value of the first element of the array, and when you use `*(&arr)` it will give you the entire array.
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/array-7.png" style="height: 30vh; padding-left: 40vh;">
+    <img src="/04_Material/CodeSnaps/array-7.png" style="height: 30vh; padding-left: 40vh;">
     
 </p>
 
@@ -42,7 +42,7 @@ In **summary**, `arr` and `&arr` are **different variables** with **different ty
 
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/arrayoutside.png" style="height: 70vh; padding-left: 90vh;">
+    <img src="/04_Material/CodeSnaps/arrayoutside.png" style="height: 70vh; padding-left: 90vh;">
     
 </p>
 
@@ -56,14 +56,14 @@ There are two ways to calculate the size of an array
 ## Array with pointers
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/array-8.png" style="height: 30vh; padding-left: 40vh;">
+    <img src="/04_Material/CodeSnaps/array-8.png" style="height: 30vh; padding-left: 40vh;">
     
 </p>
 
 ## Arrays with functions
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/array-9.png" style="height: 60vh; padding-left: 70vh;">
+    <img src="/04_Material/CodeSnaps/array-9.png" style="height: 60vh; padding-left: 70vh;">
     
 </p>
 
@@ -94,27 +94,27 @@ When an `array` is passed as a parameter to a function, a `pointer` to the first
 1. It is not possible to determine the size of a `static array` at **runtime** using the traditional method, however, using the concept of a `constant array size`, the size of a `static array` can be obtained during **runtime**. This allows for the `dynamic allocation of memory` for a `static` array, enabling its size to be determined and modified at **runtime**.
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/array-11.png" style="height: 30vh; padding-left: 40vh;">
+    <img src="/04_Material/CodeSnaps/array-11.png" style="height: 30vh; padding-left: 40vh;">
     
 </p>
 
 2. When **declaring** an `array`, it is possible to initialize specific elements of the array at that time by using the syntax of **assigning** a value to a specific index of the array. This allows for more flexibility in initializing arrays and can be useful in certain situation.
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/array-13.png" style="height: 40vh; padding-left: 40vh;">
+    <img src="/04_Material/CodeSnaps/array-13.png" style="height: 40vh; padding-left: 40vh;">
     
 </p>
 
 3.  It is also possible to initialize an array in a more concise way, by omitting the `=` sign while providing the values to be assigned to the `array`. This method is called **uniform initialization** . This way of initializing an array is considered to be more readable and can make the code more expressive. It is important to note that this method of **initialization** is only supported in `C++11` and later versions.
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/array-14.png" style="height: 40vh; padding-left: 40vh;">
+    <img src="/04_Material/CodeSnaps/array-14.png" style="height: 40vh; padding-left: 40vh;">
     
 </p>
 
 4. In the context of a **symbol table**, the reason why we can't do arr++.The **symbol table**, which is used by the compiler to keep track of `variables` and their `types`, does not contain information about the specific memory addresses of variables, but rather their types and scope.
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/array-15.png" style="height: 40vh; padding-left: 40vh;">
+    <img src="/04_Material/CodeSnaps/array-15.png" style="height: 40vh; padding-left: 40vh;">
     
 </p>
