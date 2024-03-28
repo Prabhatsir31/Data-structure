@@ -1,8 +1,5 @@
-/*Author :@haiderali780
-Check if a given string contains redundant brackets in C++.
- Output whether the string contains redundant brackets or not
-Time:13 Feb,2022 _01:01
-*/
+/*Check if a given string contains redundant brackets in C++.
+ Output whether the string contains redundant brackets or not*/
 
 #include <iostream>
 #include <string>
