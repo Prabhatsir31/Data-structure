@@ -1,4 +1,4 @@
-#include
+#include<stdio.h>
 using namespace std;
 int binarySearch(int arr[], int p, int r, int num) {
    if (p <= r) {
