@@ -1,4 +1,4 @@
-/*P9.8 Double hashing*/
+/*P3 Double hashing*/
 #include <stdio.h>
 #include<stdlib.h>
 #define MAX 50
