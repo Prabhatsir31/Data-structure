@@ -1,9 +1,6 @@
-/*Author :@haiderali780
-Write a C++ program to reverse a given string. The program
+/*Write a C++ program to reverse a given string. The program
  should take in a string as input and output the reverse of
- the input string
-Time:13 Feb,2022 _01:01
-*/
+ the input string*/
 
 #include <iostream>
 #include <stack>
