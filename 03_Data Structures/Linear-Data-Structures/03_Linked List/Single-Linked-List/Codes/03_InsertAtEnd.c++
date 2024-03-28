@@ -1,7 +1,5 @@
-/*Author :@muhib7353
-Question:Write a cpp program to insert the at the end of the linkdlist
-Time:22 Jan,2022 _13:39
-*/
+/*Question:Write a cpp program to insert the at the end of the linkdlist*/
+
 #include <iostream>
 using namespace std;
 class Node
