@@ -1,8 +1,4 @@
-
-/*Author :@haiderali780
-Convert a decimal number to binary using a stack and return the result as an integer
-Time:07 Feb,2022 _12:01
-*/
+/*Convert a decimal number to binary using a stack and return the result as an integer*/
 
 #include <iostream>
 #include <stack>
