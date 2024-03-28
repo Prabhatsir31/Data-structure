@@ -1,7 +1,4 @@
-/*Author :@haiderali780
-Sort a given stack using only stack operations with loops
-Time:13 Feb,2022 _01:01
-*/
+/*Sort a given stack using only stack operations with loops*/
 
 #include <stack>
 #include <iostream>
