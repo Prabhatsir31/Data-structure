@@ -1,9 +1,3 @@
-/*
-File Name: Build Heap
-Purpose  : Building a heap from an array
-Date     : 11th November 2018
-Author   : Bipul Islam
- */
 #include <stdio.h>
 #define LARGE_VALUE 99999   ///All values in heap should be less than this value
 
