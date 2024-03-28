@@ -1,9 +1,4 @@
-/*Author :@haiderali780
-
-Time:28 Jan,2022 _6:01
-*/
-
-#include<iostream>
+    #include<iostream>
     using namespace std;
     int main()
     {
