@@ -1,7 +1,4 @@
-/*Author :@muhib7353
-Question:Write a cpp program to insert the node at any position Like Middle of the linkdlist
-Time:22 Jan,2022 _14:38
-*/
+/*Question:Write a cpp program to insert the node at any position Like Middle of the linkdlist*/
 #include <iostream>
 using namespace std;
 class Node
