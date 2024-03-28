@@ -5,14 +5,14 @@
 ## 1D Dynamic Array
 
  <p align="center">
-    <img src="/05_Material/CodeSnaps/array-2.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/04_Material/CodeSnaps/array-2.png" style="height: 40vh; padding-left: 50vh;">
     
 </p>
 
 ## 2D Dynamic Array
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/array-3.png" style="height: 70vh; padding-left: 80vh;">
+    <img src="/04_Material/CodeSnaps/array-3.png" style="height: 70vh; padding-left: 80vh;">
     
 </p>
 
