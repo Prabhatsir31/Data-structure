@@ -23,7 +23,7 @@
 The **Standard Template Library** (`STL`) in C++ provides a stack container class that implements a stack data structure. You can use this class to perform stack operations, such as `push` and `pop`, without having to write your own stack implementation from scratch. Here's how to use the stack class in `C++`.
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-1.png" style="height: 70vh; padding-left: 80vh;">
+    <img src="/04_Material/CodeSnaps/stack-1.png" style="height: 70vh; padding-left: 80vh;">
  </p>
 
 ## Stack Implementations
@@ -39,22 +39,22 @@ An `array` can be declared either as a `static` or `dynamic array`, and can be d
 
 - **push**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-2.png" style="height: 60vh; padding-left: 70vh;">
+    <img src="/04_Material/CodeSnaps/stack-2.png" style="height: 60vh; padding-left: 70vh;">
  </p>
 
 - **pop**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-3.png" style="height: 30vh; padding-left: 40vh;">
+    <img src="/04_Material/CodeSnaps/stack-3.png" style="height: 30vh; padding-left: 40vh;">
  </p>
 
 - **peek**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-4.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/04_Material/CodeSnaps/stack-4.png" style="height: 40vh; padding-left: 50vh;">
  </p>
 
 - **isEmpty**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-5.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/04_Material/CodeSnaps/stack-5.png" style="height: 40vh; padding-left: 50vh;">
  </p>
 
 
@@ -78,27 +78,27 @@ A `linked list` is a data structure that consists of a sequence of **nodes**, wh
 
 - **push**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-7.png" style="height: 30vh; padding-left: 50vh;">
+    <img src="/04_Material/CodeSnaps/stack-7.png" style="height: 30vh; padding-left: 50vh;">
  </p>
 
 - **pop**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-6.png" style="height: 40vh; padding-left: 50vh;">
+    <img src="/04_Material/CodeSnaps/stack-6.png" style="height: 40vh; padding-left: 50vh;">
  </p>
 
 - **peek**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-9.png" style="height: 30vh; padding-left: 50vh;">
+    <img src="/04_Material/CodeSnaps/stack-9.png" style="height: 30vh; padding-left: 50vh;">
  </p>
 
 - **isEmpty**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-8.png" style="height: 20vh; padding-left: 20vh;">
+    <img src="/04_Material/CodeSnaps/stack-8.png" style="height: 20vh; padding-left: 20vh;">
  </p>
 
 - **Display**
 <p align="center">
-    <img src="/05_Material/CodeSnaps/stack-10.png" style="height: 50vh; padding-left: 50vh;">
+    <img src="/04_Material/CodeSnaps/stack-10.png" style="height: 50vh; padding-left: 50vh;">
  </p>
 
 #### Advantages of stack implementation using arrays:
