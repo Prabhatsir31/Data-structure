@@ -1,7 +1,3 @@
-// Author: Muhib Arshad (@muhib7353 everywhere)
-// Date and Time: 2 October , 20222  14:55:00
-// Question : FAST University Lab4 (OOP) : Instructor=> Mam Abeeda
-
 /*
 Write a program that will read monthly sales into a dynamically allocated array. The program will input the size of the array from the user. It will call a function that will find the yearly sum (the sum of all the sales). It will also call another function that will find the average. Then it calls a display function that will display the total sales for the year and average monthly sale.
 
