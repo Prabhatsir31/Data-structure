@@ -1,4 +1,4 @@
-/*P9.6 Linear probing*/
+/*P1 Linear probing*/
 #include <stdio.h>
 #include<stdlib.h>
 #define MAX 50
