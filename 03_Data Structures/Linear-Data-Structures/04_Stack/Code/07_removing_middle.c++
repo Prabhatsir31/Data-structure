@@ -1,7 +1,4 @@
-/*Author :@haiderali780
-Remove the middle element of a stack
-Time:13 Feb,2022 _01:01
-*/
+/*Remove the middle element of a stack*/
 
 #include <iostream>
 #include <stack>
