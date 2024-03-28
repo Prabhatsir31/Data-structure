@@ -1,5 +1,4 @@
-/*Author :@muhib7353
-Question:Write a c++ Program taht perform the following functionalities:
+/*Question:Write a c++ Program taht perform the following functionalities:
 1.push()
 2.pop()
 3.shift()
@@ -8,9 +7,7 @@ Question:Write a c++ Program taht perform the following functionalities:
 6.insertMiddle()
 7.displayReverse()
 8.displayForward()
-Note: Use the Concept of Single Linkdlist and make the menu driven to give user functionalities to enter todoList like Application.
-Time:22 Jan,2022 _14:38
-*/
+Note: Use the Concept of Single Linkdlist and make the menu driven to give user functionalities to enter todoList like Application.*/
 
 #include <iostream>
 #include <string>
