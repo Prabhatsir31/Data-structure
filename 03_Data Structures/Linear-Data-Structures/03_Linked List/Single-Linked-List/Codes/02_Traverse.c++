@@ -1,7 +1,4 @@
-/*Author :@muhib7353
-Question:Write a cpp program to insert the node at the start of the linkdlist
-Time:22 Jan,2022 _13:07
-*/
+/*Question:Write a cpp program to insert the node at the start of the linkdlist*/
 #include <iostream>
 
 using namespace std;
