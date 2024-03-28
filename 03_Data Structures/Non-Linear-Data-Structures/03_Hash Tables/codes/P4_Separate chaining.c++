@@ -1,4 +1,4 @@
-/*P9.9 Separate chaining*/
+/*P4 Separate chaining*/
 
 #include <stdio.h>
 #include<stdlib.h>
