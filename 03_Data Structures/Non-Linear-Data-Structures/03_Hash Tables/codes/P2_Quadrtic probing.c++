@@ -1,4 +1,4 @@
-/*P9.7 Quadrtic probing*/
+/*P2 Quadrtic probing*/
 #include <stdio.h>
 #include<stdlib.h>
 #define MAX 50
