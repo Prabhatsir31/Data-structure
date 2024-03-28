@@ -1,8 +1,5 @@
 /*Write a c++ program to write the two dimensional dynamic arrays*/
-/*Author :@haiderali780
 
-Time:28 Jan,2022 _6:01
-*/
 #include <iostream>
 #include<iomanip>
 
