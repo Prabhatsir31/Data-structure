@@ -3,7 +3,7 @@ A character array is a data structure in C programming that is used to store a s
 
 
 <p align="center">
-    <img src="/05_Material/CodeSnaps/array-10.png" style="height: 30vh; padding-left: 40vh;">
+    <img src="/04_Material/CodeSnaps/array-10.png" style="height: 30vh; padding-left: 40vh;">
     
 </p>
 
