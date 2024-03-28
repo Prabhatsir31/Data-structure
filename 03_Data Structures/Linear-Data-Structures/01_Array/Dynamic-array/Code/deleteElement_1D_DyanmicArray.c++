@@ -1,8 +1,4 @@
 /*Write a C++ program to delete the specfic element at the specfic position in one dimensional dynamic array*/
-/*Author :@haiderali780
-
-Time:28 Jan,2022 _6:01
-*/
 #include <iostream>
 
 using namespace std;
