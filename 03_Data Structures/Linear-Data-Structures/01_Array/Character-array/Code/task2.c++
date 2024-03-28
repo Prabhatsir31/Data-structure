@@ -1,7 +1,3 @@
-// Author: Muhib Arshad (@muhib7353 everywhere)
-// Date and Time: 2 October , 20222  15:21:00
-// Question : FAST University Lab4 (OOP) : Instructor=> Mam Abeeda
-
 /*
 Implement a C++ Function void myTokenizer(char *data, char **list_tokens, char delimiter)
 Your function should store the tokens in the list_tokens and split the data array on the basis of delimiter. Delimiter is another name for ‘separator’. Call the function in main and print the list_tokens. 
