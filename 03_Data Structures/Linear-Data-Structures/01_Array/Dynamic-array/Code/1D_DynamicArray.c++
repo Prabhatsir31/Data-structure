@@ -1,11 +1,4 @@
-
-/*Write a program to make a dynamic one dimensional array in C++
-*/
-/*Author :@haiderali780
-
-Time:28 Jan,2022 _6:01
-*/
-
+/*Write a program to make a dynamic one dimensional array in C++*/
 #include <iostream>
 
 using namespace std;
