@@ -50,12 +50,12 @@ Data Structures are the way data is organized and stored in memory, fundamental 
 ## Algorithums ♾️
 
 Algorithms are a set of instructions used to solve a problem. They are fundamental concepts in computer science and are used to perform various tasks such as sorting, searching, and optimization. Algorithms can be expressed in various forms such as pseudocode or actual programming language. The time and space complexity of an algorithm is important factors to evaluate its performance. Understanding and designing efficient algorithms is an essential part of computer science.
-<!--
+
 - [Sorting](/02_Algorithm/01_Sorting/)
 - [Searching](/02_Algorithm/02_Searching/)
 - [Recusrion](/02_Algorithm/03_Recusrion/)
 - [Arrays](/02_Algorithm/04_Arrays/)
-
+<!--
 ## Show your support
 
 If this project was helpful to you, please consider giving it a ⭐️.
