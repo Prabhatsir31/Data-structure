@@ -17,7 +17,7 @@ If you want to learn any topic, simply choose one from the available options and
 
 # Table of Content 📄
 
-If you're interested in seeing what I can do with backnd (of MEN), you've come to the right place! [My](https://github.com/Prabhatsir31/Data-structure/tree/main) Github repository is full of deep dive concepts that showcase my skills and experience with these powerful Data Structures and Algorithms . From simple demos to interview level concepts , I hope you'll find something here that inspires you.
+If you're interested in seeing what I can do with backnd (of MEN), you've come to the right place! [My](https://github.com/Prabhatsir31/Data-structure/) Github repository is full of deep dive concepts that showcase my skills and experience with these powerful Data Structures and Algorithms . From simple demos to interview level concepts , I hope you'll find something here that inspires you.
 <!--
 ## Complexities and Big - O 🕥
 
