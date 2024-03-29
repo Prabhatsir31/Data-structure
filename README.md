@@ -16,9 +16,9 @@
 If you want to learn any topic, simply choose one from the available options and start gaining knowledge from the provided resources on about that topic you choosed.
 
 # Table of Content 📄
-<!--
-If you're interested in seeing what I can do with backnd (of MEN), you've come to the right place! [My](https://github.com/Prabhatsir31/Data-structure/tree/main) Github repository is full of deep dive concepts that showcase my skills and experience with these powerful Data Structures and Algorithms . From simple demos to interview level concepts , I hope you'll find something here that inspires you.
 
+If you're interested in seeing what I can do with backnd (of MEN), you've come to the right place! [My](https://github.com/Prabhatsir31/Data-structure/tree/main) Github repository is full of deep dive concepts that showcase my skills and experience with these powerful Data Structures and Algorithms . From simple demos to interview level concepts , I hope you'll find something here that inspires you.
+<!--
 ## Complexities and Big - O 🕥
 
 DSA (Data Structure and Algorithms) is a fundamental concept in computer science that studies various data structures and algorithms. The complexity of these structures and algorithms can vary widely, making the understanding and analysis of DSA a complex task. Time and Space complexity are important factors in evaluating an algorithm's performance. Understanding and mastering these complexities is essential for building efficient software.
