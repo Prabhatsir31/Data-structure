@@ -33,13 +33,13 @@ Data Structures are the way data is organized and stored in memory, fundamental 
 
 ## Linear Data Structures
 
-- [Array](/01_Data%20Structures/Linear-Data-Structures/01_Array/)
-- [String](/01_Data%20Structures/Linear-Data-Structures/02_String/)
-- [Linked List](/01_Data%20Structures/Linear-Data-Structures/03_Linked%20List)
-- [Stack](/01_Data%20Structures/Linear-Data-Structures/04_Stack/)
-- [Queue](/01_Data%20Structures/Linear-Data-Structures/05_Queues/)
-- [Heap](/01_Data%20Structures/Linear-Data-Structures/06_Heap/)
-- [Grid](/01_Data%20Structures/Linear-Data-Structures/07_Grid/)
+- [Array](/03_Data%20Structures/Linear-Data-Structures/01_Array)
+- [String](/03_Data%20Structures/Linear-Data-Structures/02_String/)
+- [Linked List](/03_Data%20Structures/Linear-Data-Structures/03_Linked%20List)
+- [Stack](/03_Data%20Structures/Linear-Data-Structures/04_Stack/)
+- [Queue](/03_Data%20Structures/Linear-Data-Structures/05_Queues/)
+- [Heap](/03_Data%20Structures/Linear-Data-Structures/06_Heap/)
+- [Grid](/03_Data%20Structures/Linear-Data-Structures/07_Grid/)
 <!--
 ## Non Linear Data Structures
 
