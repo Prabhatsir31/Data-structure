@@ -26,9 +26,9 @@ DSA (Data Structure and Algorithms) is a fundamental concept in computer science
 - [Big-O Notation](/01_Complexities/00_Big%20O%20Notations/)
 - [Time Complexity](/01_Complexities/01_Time%20Complexity/)
 - [Space Complexity](/01_Complexities/02_Space%20Complexity/)
-<!--
-## Data Structures 💻
 
+## Data Structures 💻
+<!--
 Data Structures are the way data is organized and stored in memory, fundamental in computer science and used in many fields. Examples include arrays, linked lists, trees, and graphs. Each has its own strengths and weaknesses, choosing the right one depends on the problem. Understanding and mastering them is essential for building efficient software.
 
 ## Linear Data Structures
