@@ -30,9 +30,9 @@ DSA (Data Structure and Algorithms) is a fundamental concept in computer science
 ## Data Structures 💻
 
 Data Structures are the way data is organized and stored in memory, fundamental in computer science and used in many fields. Examples include arrays, linked lists, trees, and graphs. Each has its own strengths and weaknesses, choosing the right one depends on the problem. Understanding and mastering them is essential for building efficient software.
-<!--
-## Linear Data Structures
 
+## Linear Data Structures
+<!--
 - [Array](/01_Data%20Structures/Linear-Data-Structures/01_Array/)
 - [String](/01_Data%20Structures/Linear-Data-Structures/02_String/)
 - [Linked List](/01_Data%20Structures/Linear-Data-Structures/03_Linked%20List)
