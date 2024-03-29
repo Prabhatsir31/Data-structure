@@ -59,5 +59,4 @@ Algorithms are a set of instructions used to solve a problem. They are fundament
 <!--## Show your support
 <!--
 If this project was helpful to you, please consider giving it a ⭐️.
-You can also follow my GitHub profile to stay updated on my latest projects:
-<a
+You can also follow my GitHub profile to stay updated on my latest project
