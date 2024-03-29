@@ -46,9 +46,9 @@ Data Structures are the way data is organized and stored in memory, fundamental 
 - [Tree](/03_Data%20Structures/Non-Linear-Data-Structures/01_Trees/)
 - [Graph](/03_Data%20Structures/Non-Linear-Data-Structures/02_Graphs/)
 - [Hash Table](/03_Data%20Structures/Non-Linear-Data-Structures/03_Hash%20Tables/)
-<!--
-## Algorithums ♾️
 
+## Algorithums ♾️
+<!--
 Algorithms are a set of instructions used to solve a problem. They are fundamental concepts in computer science and are used to perform various tasks such as sorting, searching, and optimization. Algorithms can be expressed in various forms such as pseudocode or actual programming language. The time and space complexity of an algorithm is important factors to evaluate its performance. Understanding and designing efficient algorithms is an essential part of computer science.
 
 - [Sorting](/02_Algorithm/01_Sorting/)
