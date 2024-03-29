@@ -42,10 +42,10 @@ Data Structures are the way data is organized and stored in memory, fundamental 
   
 
 ## Non Linear Data Structures
-<!--
-- [Tree](/01_Data%20Structures/Non-Linear-Data-Structures/01_Trees/)
-- [Graph](/01_Data%20Structures/Non-Linear-Data-Structures/02_Graphs/)
-- [Hash Table](/01_Data%20Structures/Non-Linear-Data-Structures/03_Hash%20Tables/)
+
+- [Tree](/03_Data%20Structures/Non-Linear-Data-Structures/01_Trees/)
+<!-- - [Graph](/03_Data%20Structures/Non-Linear-Data-Structures/02_Graphs/)
+- [Hash Table](/03_Data%20Structures/Non-Linear-Data-Structures/03_Hash%20Tables/)
 
 ## Algorithums ♾️
 
