@@ -14,9 +14,9 @@
 # How to get benefit from this repository 💻
 
 If you want to learn any topic, simply choose one from the available options and start gaining knowledge from the provided resources on about that topic you choosed.
-<!--
-## Every Topic contain these provided resources in depth
 
+## Every Topic contain these provided resources in depth
+<!--
 <div align="center">
   <img src="content.png">
 </div>
