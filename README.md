@@ -5,9 +5,8 @@
   <img src="dsa_logo.webp" height="200" width="600">
 </div>
 <br>
-<!--
 <h1 align="center" style="font-size: 120px;" > C++ Data Structures and Algorithms<h1/>
-
+<!--
 ### Author: [PRABHAT SRIVASTAVA](https://github.com/Prabhatsir31)
 
 > This repository provides a comprehensive and in-depth look at various data structures and algorithms in C++. It covers the fundamental concepts and principles behind each data structure and algorithm, as well as their implementation in C++. The repository includes detailed explanations, examples, and exercises to help you master the material. Whether you are a beginner or an experienced programmer, this repository will help you improve your skills and understanding of C++ data structures and algorithms.
