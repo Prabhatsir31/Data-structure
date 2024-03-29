@@ -22,11 +22,11 @@ If you're interested in seeing what I can do with backnd (of MEN), you've come t
 ## Complexities and Big - O 🕥
 
 DSA (Data Structure and Algorithms) is a fundamental concept in computer science that studies various data structures and algorithms. The complexity of these structures and algorithms can vary widely, making the understanding and analysis of DSA a complex task. Time and Space complexity are important factors in evaluating an algorithm's performance. Understanding and mastering these complexities is essential for building efficient software.
-<!--
+
 - [Big-O Notation](/01_Complexities/00_Big%20O%20Notations/)
 - [Time Complexity](/01_Complexities/01_Time%20Complexity/)
 - [Space Complexity](/01_Complexities/02_Space%20Complexity/)
-
+<!--
 ## Data Structures 💻
 
 Data Structures are the way data is organized and stored in memory, fundamental in computer science and used in many fields. Examples include arrays, linked lists, trees, and graphs. Each has its own strengths and weaknesses, choosing the right one depends on the problem. Understanding and mastering them is essential for building efficient software.
