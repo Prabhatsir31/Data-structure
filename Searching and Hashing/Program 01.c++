@@ -16,7 +16,7 @@ main()
   scanf("%d", &arr[i]);
   index = LinearSearch(arr, n, item);
   if(index == -1)
-    printf("%d not found in array\n", ittem);
+    printf("%d not found in array\n", item);
   else
     printf("%d found at position %d\n", item, index);
 } /* End of main() */
